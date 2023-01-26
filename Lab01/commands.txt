@@ -13,7 +13,9 @@ mkdir:creates new location
 sudo:temporarily gives you more privelge 
 grep (phrase) (item): search for the phrase in an item 
 touch (item): creates new files 
-cp (item)(newitem): makes a copy of an item 
+cp (item)(newitem): makes a copy of an item
+sudo less: provides more access to a files content
+exit: terminate game
 
 
 
