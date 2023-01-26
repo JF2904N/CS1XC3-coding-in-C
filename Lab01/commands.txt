@@ -10,13 +10,10 @@ man: tells you how to use certain command
 mv: moves item to different location 
 rm: removes item 
 mkdir:creates new location
-sudo:
+sudo:temporarily gives you more privelge 
 grep (phrase) (item): search for the phrase in an item 
-touch (item): 
+touch (item): creates new files 
 cp (item)(newitem): makes a copy of an item 
-sudo cp(itemA)(itemB):
 
 
-1 sign: Dead end at cave staircase 
-2 sign: WesternForest 
-3 sign :Called back sign also in WesternForest 
+
