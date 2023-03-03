@@ -1,0 +1,4 @@
+a) similar because the both repeatedly execute but what makes them different is one of them stays in the same call for the function (iterative calls only once) while the other will keep calling and repeating until it gets an answer. The recursion has more repition because it does the same function again and inside the function as well, while the interative stays inside that one function, to support my statement, the runtime is longer on recursive for all of them then with iterative. 
+b) line 242 and they are the same on both algorithms
+c) commas,semi colons and blank lines
+d) line242 

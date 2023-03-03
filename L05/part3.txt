@@ -1,0 +1,6 @@
+Why are all the reported times zero?
+Gprof cannot record speeds that are faster than the software can read therefore it gives an automatic zero.
+Why is factors_itr only called once every time the program is run? 
+This is because it is a iterative and not recursive as a result it only runs once. 
+Is there an obvious mathematical relationship between the input number and the number of recursive calls? What abouthe number of prime factors each number produces? 
+There is no immediate mathematical relationship between input number and the recursive calls.It isn't obvious because the pattern starts but when we factor 79 it gives us "1" which disturbs the pattern. For prime factors and recursive calls it is not obvious however through reflection on the first part, I find a relationship.But it is not obvious.
