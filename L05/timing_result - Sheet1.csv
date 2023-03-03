@@ -1,0 +1,15 @@
+Search Value  ,Linear Search,Binary Search,Fibonacci search,Notes
+1,0.004,0.004,0.004,same: the search for the value is too quick all searches are the same time
+4,0.004,0.004,0.004,same: 4 is found on the start of the array so it is processed very quickly
+22,0.004,0.004,0.004,same: search value is still relatively low so all searches are equaly effective
+37,0.004,0.004,0.04,same: search value is still relatively low so all searches are equaly effective
+22906,0.004,0.003,0.004,Binary: faster as it splits the list in half on each iteration
+53757,0.004,0.004,0.004,same: search value is most likely earlier in the list for binary search to be on par with Binary and fibonacci
+112591,0.003,0.004,0.004,linear: most likely the search value is at or near the begining of the list 
+361940,0.003,0.004,0.003,Linear and fibonacci: linear may be faster if the value is found near the begining of the array while fibonacci is consistently efficient as a recursive algorithm 
+475713,0.004,0.004,0.004,same: value was found extremely quickly so time is all the same
+893766,0.004,0.003,0.003,binary and fibonacci: value is most likely found farther in the array which will make it harder for linear to search for as it searches through each element
+996637,0.004,0.003,0.003,binary and fibonacci: value is most likely found farther in the array which will make it harder for linear to search for as it searches through each element
+996639,0.045,0.003,0.004,Binary: very efficient in breaking down the array quickly once again linear is slowest as elements are further down inn the array 
+996652,0.04,0.004,0.004,same: the search for the value is too quick all searches are the same time
+-996652,0.004,0.004,0.003,roughly the same most likely due to the reuslt that the search value is not found in the array 
