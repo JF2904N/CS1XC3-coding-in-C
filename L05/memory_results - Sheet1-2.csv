@@ -1,0 +1,17 @@
+Search Value  ,Linear Search,Binary Search,Fibonacci search,Notes
+1,2260,2252,2248,little difference
+4,2216,2124,2248,little difference
+22,2120,2256,2224,little difference
+37,2248,2204,2248,Slight difference in binary (more array adjustments) 
+22906,2248,2124,2300,little difference
+53757,2256,2212,2304,slight difference may be because of type step 
+112591,2260,2196,2300,slight difference in fibonacci
+361940,2244,2252,2304,slight diffference in fibonacci 
+475713,2224,2236,2248,little difference
+893766,2228,2224,2224,little difference
+996637,2196,2244,2244,little difference
+996639,2212,2304,2260,little difference
+996652,2244,2256,2228,little difference
+-996652,2216,2224,2260,little difference
+,,,,
+,*for those that are similar it is most likely due to the amount of steps to find the search value,,,
