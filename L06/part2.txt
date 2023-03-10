@@ -1,0 +1,44 @@
+------
+ 17:35:49 up 80 days,  8:44, 41 users,  load average: 0.34, 0.50, 0.49
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+miletid  pts/43   172.18.66.90     15:38    1:41m  0.27s  0.27s -bash
+ofeknale pts/44   172.18.69.85     15:00    1:56m  0.05s  0.05s -bash
+sajjaa7  pts/13   172.17.145.195   16:13    9:49   0.46s  0.46s -bash
+nakamurs pts/4    172.18.117.159   16:33   54:13   0.07s  0.07s -bash
+ansars23 pts/10   172.17.189.59    16:21   18:04   0.12s  0.12s -bash
+liu1690  pts/7    172.18.69.208    13:31    1:37m  0.51s  0.04s nano compiletop.sh
+parikh5  pts/71   172.17.117.89    17:19   11:33   0.06s  0.06s -bash
+kheraa6  pts/88   172.18.183.210   17:01   31:07   0.07s  0.07s -bash
+singj93  pts/89   172.17.62.204    14:44    1:01m  0.58s  0.58s -bash
+liu1690  pts/99   172.18.69.208    16:02   38:37   0.33s  0.07s nano compiletop.sh
+kaurs83  pts/111  172.18.204.129   15:57    5.00s  0.95s  0.19s vim Lab6Part4.h
+balasim  pts/128  172.18.69.222    15:38   17:41   0.32s  0.32s -bash
+shahr73  pts/160  172.17.116.111   16:45   21.00s  0.22s  0.22s -bash
+mohaa143 pts/123  172.18.17.196    17:22    5:25   0.16s  0.16s -bash
+abtahib  pts/125  172.18.64.224    16:00    1:33m  0.05s  0.05s -bash
+shahr73  pts/233  172.18.48.20     16:14    1:05m  0.13s  0.13s -bash
+zhouz229 pts/234  172.18.47.124    17:22   13:25   0.06s  0.06s -bash
+subrap6  pts/220  172.17.113.241   17:29   13.00s  0.11s  0.11s -bash
+xu518    pts/263  172.18.96.220    15:26    1:27m  0.18s  0.18s -bash
+patem190 pts/337  172.17.115.105   17:34   21.00s  0.10s  0.05s nano .bash_profile
+bhattv11 pts/353  172.18.29.18     14:12    3:22m  2.21s  2.21s /home/bhattv11/.local/bin/zsh -l
+abtahib  pts/362  172.18.64.224    16:04    1:29m  0.06s  0.06s -bash
+madhus2  pts/363  172.18.60.93     16:40    8:37   0.21s  0.21s -bash
+zhoua39  pts/388  172.17.65.81     13:44    3:46m  0.13s  0.13s -bash
+moonemal pts/401  172.17.115.89    17:05   29:57   0.05s  0.05s -bash
+sivakr6  pts/381  172.17.118.214   17:22   13:09   0.08s  0.02s nano runtop.sh
+liu1690  pts/383  172.18.69.208    17:23    1:09   0.24s  0.07s nano compiletop.sh
+modyd1   pts/385  172.18.50.68     16:15    1:09m  0.12s  0.05s nano part5.txt
+ebrahp2  pts/387  172.17.69.84     13:43    1:53m  0.15s  0.15s -bash
+racharls pts/403  172.17.57.152    15:04    2:05m  0.15s  0.15s -bash
+corradic pts/404  172.18.22.197    17:33    1:57   0.05s  0.05s -bash
+kongy17  pts/407  172.18.203.231   17:27   29.00s  0.17s  0.07s vim .bash_profile
+quans6   pts/426  172.18.63.1      16:24   32:21   0.90s  0.08s vim Lab6Part4.h
+singj93  pts/444  172.18.23.169    17:14   13:30   0.11s  0.11s -bash
+racharls pts/448  172.17.113.160   16:47   51.00s  0.31s  0.31s -bash
+zhoue5   pts/457  172.18.203.1     14:51    1:49m  0.70s  0.70s -bash
+wakyendj pts/440  172.17.238.184   16:49   25:47   0.23s  0.23s -bash
+fongj13  pts/450  172.18.6.166     16:49    5.00s  0.45s  0.06s w
+taylon17 pts/451  172.18.53.122    16:51   19:41   0.33s  0.02s nano compiletop.sh
+wakyendj pts/454  172.17.238.184   17:08   13.00s  0.16s  0.16s -bash
+guptae6  pts/408  172.17.112.108   17:27    1.00s  0.17s  0.09s nano compiletop.sh
