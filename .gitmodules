@@ -10,3 +10,6 @@
 [submodule "L07/1XC3_L07"]
 	path = L07/1XC3_L07
 	url = git@github.com:JF2904N/1XC3_L07.git
+[submodule "L08/course-name"]
+	path = L08/course-name
+	url = git@github.com:JF2904N/course-name.git
