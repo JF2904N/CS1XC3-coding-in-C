@@ -16,3 +16,6 @@
 [submodule "CS1XC3_L08_P3"]
 	path = CS1XC3_L08_P3
 	url = git@github.com:JF2904N/CS1XC3_L08_P3.git
+[submodule "L08/CS1XC3_L08_P3"]
+	path = L08/CS1XC3_L08_P3
+	url = git@github.com:JF2904N/CS1XC3_L08_P3.git
