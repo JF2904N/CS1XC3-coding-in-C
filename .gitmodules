@@ -13,3 +13,6 @@
 [submodule "L08/course-name"]
 	path = L08/course-name
 	url = git@github.com:JF2904N/course-name.git
+[submodule "CS1XC3_L08_P3"]
+	path = CS1XC3_L08_P3
+	url = git@github.com:JF2904N/CS1XC3_L08_P3.git
