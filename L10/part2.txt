@@ -1,15 +1,15 @@
-find<super>citation_needed<super> -name <super>citation_needed<super>tex
-find<super>citation_needed<super> -name <super>citation_needed<super>tex -and -not -name *Templat<super>citation_needed<super>tex
-find<super>citation_needed<super> -name <super>citation_needed<super>tex  -exec sed -n '$=' {} \;
-find<super>citation_needed<super> -name <super>citation_needed<super>tex -or -name <super>citation_needed<super>pdf -or -name <super>citation_needed<super>toc
-find -name "*Topic [789]<super>citation_needed<super>pdf" -or -name "*Topic 1[0123]<super>citation_needed<super>pdf"
+find . -name *.tex
+find . -name *.tex -and -not -name *Template.tex
+find . -name *.tex  -exec sed -n '$=' {} \;
+find . -name *.tex -or -name *.pdf -or -name *.toc
+find -name "*Topic [789]*.pdf" -or -name "*Topic 1[0123]*.pdf"
 find -type f -name "*~" -delete
-find<super>citation_needed<super> -name "*#" -and -name "#*" -delete
-find -type f -name "<super>citation_needed<super>png" -or -name "<super>citation_needed<super>jpg" -or -name "<super>citation_needed<super>bmp" -or -name "<super>citation_needed<super>webp" | grep -P '<super>citation_needed<super>{10}$' | >> goodFile<super>citation_needed<super>txt
-find -type f -name "<super>citation_needed<super>log" >> allTheLog<super>citation_needed<super>log
-find<super>citation_needed<super> -name "*C*" -and -name "<super>citation_needed<super>aux" -exec sed -n '10p' {} \;
-find<super>citation_needed<super> -name "*sh" -exec chmod +x {} \;
-find<super>citation_needed<super> -type f -iname "* nd *" -exec sed -n '1,10p' {} \; >> allhead<super>citation_needed<super>txt
-find<super>citation_needed<super> -name "<super>citation_needed<super>png" -exec cp {} image_backup/ \; -or -name "<super>citation_needed<super>jpg" -exec cp {} image_backup/ \; -or -name "<super>citation_needed<super>jpeg" -or -name "<super>citation_needed<super>webp" -exec cp {} image_backup/ \;
-find<super>citation_needed<super> -name "filename<super>citation_needed<super>txt" -exec cat {} \;
-while read -r line; do find<super>citation_needed<super> -type f -name $line; done < allTheGlob<super>citation_needed<super>txt 
+find . -name "*#" -and -name "#*" -delete
+find -type f -name "*.png" -or -name "*.jpg" -or -name "*.bmp" -or -name "*.webp" | grep -P '/.{10}$' | >> goodFiles.txt
+find -type f -name "*.log" >> allTheLogs.log
+find . -name "*C*" -and -name "*.aux" -exec sed -n '10p' {} \;
+find . -name "*sh" -exec chmod +x {} \;
+find . -type f -iname "* nd *" -exec sed -n '1,10p' {} \; >> allheads.txt
+find . -name "*.png" -exec cp {} image_backup/ \; -or -name "*.jpg" -exec cp {} image_backup/ \; -or -name "*.jpeg" -or -name "*.webp" -exec cp {} image_backup/ \;
+find . -name "filenames.txt" -exec cat {} \;
+while read -r line; do find . -type f -name $line; done < allTheGlobs.txt 

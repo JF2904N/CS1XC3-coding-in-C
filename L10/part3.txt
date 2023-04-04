@@ -1,10 +1,10 @@
-find -type f -name "<super>citation_needed<super>tex" | xargs -I x grep "\includegraphics" x
-find -type f -name "<super>citation_needed<super>tex" | xargs -I x grep -v "begin<super>citation_needed<super>*}\<super>citation_needed<super>*\]" x | grep -v "begin<super>citation_needed<super>*}<super>citation_needed<super>*}"
+find -type f -name "*.tex" | xargs -I x grep "\includegraphics" x
+find -type f -name "*.tex" | xargs -I x grep -v "begin{.*}\[.*\]" x | grep -v "begin{.*}{.*}"
 grep -rE "(bitwidth|arbitrary|pointer)"
-grep --include=\*S<super>citation_needed<super>tex -rE "(to be|will be|has been|had been|will have been|been)"
+grep --include=\*S*.tex -rE "(to be|will be|has been|had been|will have been|been)"
 grep -rn -A 1 "[\]begin{itemize}"
 grep -rnE "(pointer|{pointer})[RSTLNErstlne]"
 grep -rnE -i " ([aeiou][aeiou]) "
-grep -rnE "if \<super>citation_needed<super>*\) {"
-grep -rnE "^(int|void|float|char) \w+ \<super>citation_needed<super>*\)"
+grep -rnE "if \(.*\) {"
+grep -rnE "^(int|void|float|char) \w+ \(.*\)"
 grep -rnE "[0-9]+ [-+/*] [0-9]+"
