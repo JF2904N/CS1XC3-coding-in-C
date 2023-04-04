@@ -1,12 +1,12 @@
-./SLIDES/Topic 2 - Version Control/github.png
-./SLIDES/Topic 4 - Basic Constructs in C/escape.png
-./SLIDES/Topic 1 - Shell Interactivity/shells.png
-./SLIDES/Topic 1 - Shell Interactivity/obiwan.jpg
-./SLIDES/Topic 10 - Strings and File IO in C/floats.png
-./SLIDES/Topic 10 - Strings and File IO in C/string.png
-./SLIDES/Topic 10 - Strings and File IO in C/strtod.png
-./SLIDES/Topic 10 - Strings and File IO in C/width2.png
-./SLIDES/fight.webp
-./SLIDES/Topic 9 - Makefiles/stages.png
-./SLIDES/Topic 12 - Data Structures in C/orgate.png
-./SLIDES/Topic 6 - Functions and Arrays in C/graphs/string.png
+./SLIDES/Topic 2 - Version Control/githu<super>citation_needed<super>png
+./SLIDES/Topic 4 - Basic Constructs in C/escap<super>citation_needed<super>png
+./SLIDES/Topic 1 - Shell Interactivity/shell<super>citation_needed<super>png
+./SLIDES/Topic 1 - Shell Interactivity/obiwa<super>citation_needed<super>jpg
+./SLIDES/Topic 10 - Strings and File IO in C/float<super>citation_needed<super>png
+./SLIDES/Topic 10 - Strings and File IO in C/strin<super>citation_needed<super>png
+./SLIDES/Topic 10 - Strings and File IO in C/strto<super>citation_needed<super>png
+./SLIDES/Topic 10 - Strings and File IO in C/width<super>citation_needed<super>png
+./SLIDES/figh<super>citation_needed<super>webp
+./SLIDES/Topic 9 - Makefiles/stage<super>citation_needed<super>png
+./SLIDES/Topic 12 - Data Structures in C/orgat<super>citation_needed<super>png
+./SLIDES/Topic 6 - Functions and Arrays in C/graphs/strin<super>citation_needed<super>png

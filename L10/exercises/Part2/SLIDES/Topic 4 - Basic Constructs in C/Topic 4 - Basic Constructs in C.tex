@@ -13,19 +13,19 @@
 \let\OldTexttt\texttt
 \renewcommand{\texttt}[1]{\OldTexttt{\color{teal}{#1}}}
 
-\definecolor{eggplant}{rgb}{0.52,0.11,0.3}
+\definecolor{eggplant}{rgb}{<super>citation_needed<super>52,<super>citation_needed<super>11,<super>citation_needed<super>3}
 
 \usecolortheme[named=eggplant]{structure}
 
 
-\definecolor{mGreen}{rgb}{0,0.6,0}
-\definecolor{mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{mPurple}{rgb}{0.58,0,0.05}
-\definecolor{mGreen2}{rgb}{0.05,0.65,0.05}
-\definecolor{mGray2}{rgb}{0.55,0.55,0.55}
-\definecolor{mPurple2}{rgb}{0.63,0.05,0.05}
-\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
-\definecolor{backgroundColour2}{rgb}{0.95,0.92,0.95}
+\definecolor{mGreen}{rgb}{0,<super>citation_needed<super>6,0}
+\definecolor{mGray}{rgb}{<super>citation_needed<super>5,<super>citation_needed<super>5,<super>citation_needed<super>5}
+\definecolor{mPurple}{rgb}{<super>citation_needed<super>58,0,<super>citation_needed<super>05}
+\definecolor{mGreen2}{rgb}{<super>citation_needed<super>05,<super>citation_needed<super>65,<super>citation_needed<super>05}
+\definecolor{mGray2}{rgb}{<super>citation_needed<super>55,<super>citation_needed<super>55,<super>citation_needed<super>55}
+\definecolor{mPurple2}{rgb}{<super>citation_needed<super>63,<super>citation_needed<super>05,<super>citation_needed<super>05}
+\definecolor{backgroundColour}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>95,<super>citation_needed<super>92}
+\definecolor{backgroundColour2}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>92,<super>citation_needed<super>95}
 
 \lstdefinestyle{C}{
     backgroundcolor=\color{backgroundColour},   
@@ -84,7 +84,7 @@ Development Basics}
 COMPSCI 1XC3 - Computer Science Practice and Experience:
 Development Basics
 \titlepage
-(Loosely) Adapted from C: How to Program 8th ed., Deitel \& Deitel
+(Loosely) Adapted from C: How to Program 8th e<super>citation_needed<super>, Deitel \& Deitel
 \end{frame}
 
 \begin{frame}
@@ -97,7 +97,7 @@ Development Basics
 \begin{frame}[fragile=singleslide]{A Simple Sample}
 \begin{lstlisting}[style=C]
 // A REALLY simple program in C
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 
 // the 'main' function begins program execution
 int main(void) {
@@ -108,9 +108,9 @@ int main(void) {
 
 \begin{frame}[fragile=singleslide]{Comment Your Code! (Or Else!)}
 \begin{itemize}
-\item In Python, \texttt{\#} designates a single-line comment.
+\item In Python, \texttt{\#} designates a single-line commen<super>citation_needed<super>
 \begin{itemize}
-\item In C, \texttt{//} is used.
+\item In C, \texttt{//} is use<super>citation_needed<super>
 \end{itemize}
 \item C also has Multi-line comments! 
 \end{itemize}
@@ -118,17 +118,17 @@ int main(void) {
 /* This is a multi-line comment! 
  * 
  *
- * Yup, still going...
+ * Yup, still goin<super>citation_needed<super><super>citation_needed<super>
  *
  */
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{\textbf{/*}} begins a multi-line comment.
-\item \texttt{\textbf{*/}} ends the comment.  
+\item \texttt{\textit{/*}} begins a multi-line commen<super>citation_needed<super>
+\item \texttt{\textit{*/}} ends the commen<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Comment Your Code! (Or Else!) (cont.)}
+\begin{frame}{Comment Your Code! (Or Else!) (con<super>citation_needed<super>)}
 Here are some guidelines for commenting code in C:
 \begin{itemize}
 \item At the top of the file, indicate:
@@ -138,31 +138,31 @@ Here are some guidelines for commenting code in C:
 	\item The date the program was last modified
 	\item The purpose of the program
 	\end{itemize}
-\item Comment each function to indciate what its purpose is.  This includes any assumptions about the inputs, properties of the outputs and invariants that will hold throughout execution.
-\item Comment the end of each function with something like ``end of function x''.  This will make it much easier to navigate your code. \texttt{But do not over comment.}
+\item Comment each function to indciate what its purpose i<super>citation_needed<super>  This includes any assumptions about the inputs, properties of the outputs and invariants that will hold throughout executio<super>citation_needed<super>
+\item Comment the end of each function with something like ``end of function x'<super>citation_needed<super>  This will make it much easier to navigate your cod<super>citation_needed<super> \texttt{But do not over commen<super>citation_needed<super>}
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Preprocessor Directives}
 \begin{itemize}
-\item In Python, we access libraries using \texttt{import ...}
-\item In C, we use \texttt{\#include<...>}
+\item In Python, we access libraries using \texttt{import<super>citation_needed<super><super>citation_needed<super>}
+\item In C, we use \texttt{\#include<super>citation_needed<super><super>citation_needed<super>>}
 \begin{itemize}
-\item Lines beginning with \# are \textbf{preprocessor directives}
-\item Preprocessor directives are processed before the program is parsed.  
-\item \textbf{*.h} files are known as \textbf{header files}.  Many of C's most important libraries are stored in header files. 
-\item \texttt{stdio.h} contains the definition for \texttt{printf} (and much more besides!)  
+\item Lines beginning with \# are \textit{preprocessor directives}
+\item Preprocessor directives are processed before the program is parse<super>citation_needed<super>  
+\item \textit{<super>citation_needed<super>h} files are known as \textbf{header files<super>citation_needed<super>  Many of C's most important libraries are stored in header file<super>citation_needed<super> 
+\item \texttt{stdi<super>citation_needed<super>h} contains the definition for \texttt{printf} (and much more besides!)  
 \begin{itemize}
-    \item \href{https://www.tutorialspoint.com/c_standard_library/stdio_h.htm}{C standard library}
+    \item \href{https://ww<super>citation_needed<super>tutorialspoin<super>citation_needed<super>com/c_standard_library/stdio_<super>citation_needed<super>htm}{C standard library}
 \end{itemize}
-\item Adding the line \texttt{\#include<stdio.h>} to the beginning of each C program should become reflexive! 
+\item Adding the line \texttt{\#include<stdi<super>citation_needed<super>h>} to the beginning of each C program should become reflexive! 
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Being a Blockhead}
 \begin{itemize}
-\item In Python, statement blocks are indicated using indentation.
+\item In Python, statement blocks are indicated using indentatio<super>citation_needed<super>
 \begin{lstlisting}[style=Python]
 def max2(x,y) :
 	if (x > y) :
@@ -185,9 +185,9 @@ int max2(int x, int y) {
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Whitespace Doesn't Matter!}
-This C program...
+This C progra<super>citation_needed<super><super>citation_needed<super>
 \begin{lstlisting}[style=C]
-#include<stdio.h>
+#include<stdi<super>citation_needed<super>h>
 
 int main (void) { 
 	int x = 17;
@@ -200,10 +200,10 @@ int main (void) {
 }
 \end{lstlisting}
 \end{frame}
-\begin{frame}[fragile=singleslide]{Whitespace Doesn't Matter! (cont.)}
-Is \emph{identical} to this C program...
+\begin{frame}[fragile=singleslide]{Whitespace Doesn't Matter! (con<super>citation_needed<super>)}
+Is \emph{identical} to this C progra<super>citation_needed<super><super>citation_needed<super>
 \begin{lstlisting}[style=C]
-#include<stdio.h>
+#include<stdi<super>citation_needed<super>h>
 int main (void) { /* Midline comments! */ int x = 17; bool y 
 = False;
 	
@@ -212,44 +212,44 @@ int main (void) { /* Midline comments! */ int x = 17; bool y
 \end{lstlisting}
 At least as far as the compiler is concerned! 
 
-(Clearly, one of these is preferrable...)
+(Clearly, one of these is preferrabl<super>citation_needed<super><super>citation_needed<super>)
 \end{frame}
 
 \begin{frame}{The \texttt{main} Event}
 \begin{itemize}
-\item In Python, execution begins at the first line of the script, and terminates on the last line.  
-\item In C, execution begins at the first line of the \texttt{main} function(!), and terminates either when execution reaches a \texttt{return} statement inside of \texttt{main}, or when the program reaches the last line of \texttt{main}.
+\item In Python, execution begins at the first line of the script, and terminates on the last lin<super>citation_needed<super>  
+\item In C, execution begins at the first line of the \texttt{main} function(!), and terminates either when execution reaches a \texttt{return} statement inside of \texttt{main}, or when the program reaches the last line of \texttt{main<super>citation_needed<super>
 \item A \texttt{main} function is required for compilation
 \item Trying to put regular statements in the global namespace will result in \emph{Syntax Errors A'Plenty!}
 \end{itemize}
-We'll talk about other functions in the next few weeks.
+We'll talk about other functions in the next few week<super>citation_needed<super>
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{The \texttt{main} Event (cont.)}
+\begin{frame}[fragile=singleslide]{The \texttt{main} Event (con<super>citation_needed<super>)}
 \begin{lstlisting}[style=C]
-...
+<super>citation_needed<super>.
 int main (void) { 
-	...
+<super>citation_needed<super><super>citation_needed<super>
 }
-...
+<super>citation_needed<super>.
 \end{lstlisting}
 \begin{itemize}
-\item The \texttt{int} keyword indicates that \texttt{main} returns an integer value.
+\item The \texttt{int} keyword indicates that \texttt{main} returns an integer valu<super>citation_needed<super>
 	\begin{itemize}
-	\item A return value of 0 indicates the program exited normally (i.e., without runtime errors).
-	\item Any other return value typically indicates the program exited abnormally (i.e., errors happened!)
+	\item A return value of 0 indicates the program exited normally (<super>citation_needed<super><super>citation_needed<super>, without runtime errors<super>citation_needed<super>
+	\item Any other return value typically indicates the program exited abnormally (<super>citation_needed<super><super>citation_needed<super>, errors happened!)
 	\end{itemize}
-\item Giving \texttt{void} as an argument indicates that this program is ignoring any passed arguments.  The \texttt{void} keyword may be omitted.
+\item Giving \texttt{void} as an argument indicates that this program is ignoring any passed argument<super>citation_needed<super>  The \texttt{void} keyword may be omitte<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \section[I/O]{Simple Input/Output}
 \begin{frame}[fragile=singleslide]{\texttt{printf()} and \texttt{stdout}}
-Printing strings should be nothing new, but let's go over it anyways.
+Printing strings should be nothing new, but let's go over it anyway<super>citation_needed<super>
 \begin{itemize}
     \item \texttt{printf()} is equivalent to Python's \texttt{print()} function
     \begin{itemize}
-        \item The biggest difference is that \texttt{printf()} does \emph{not} automatically append \texttt{\textbackslash n} to the end of a string.
+        \item The biggest difference is that \texttt{printf()} does \emph{not} automatically append \texttt{\textbackslash n} to the end of a strin<super>citation_needed<super>
     \end{itemize}
     \item Example
 \end{itemize}
@@ -268,23 +268,23 @@ Printing strings should be nothing new, but let's go over it anyways.
 \end{frame}
 
 \begin{frame}{String Formatting!}
-String formatting should also be nothing new, but there are some important differences.
+String formatting should also be nothing new, but there are some important difference<super>citation_needed<super>
 \begin{itemize}
 \item In Python, strings are delimited by either double or single quotes (\texttt{"Hello World"} $\equiv$ \texttt{'Hello World'})
 \item In C, single and double quotes have different meanings! 
 \begin{itemize}
-\item Double quotes are \emph{string} delimiters.
-\item Single quotes are \emph{character} delimiters.
+\item Double quotes are \emph{string} delimiter<super>citation_needed<super>
+\item Single quotes are \emph{character} delimiter<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
-\includegraphics[scale=0.14]{escape.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Reading from \texttt{stdin}}
-The following program uses the \texttt{scanf} standard library function to read keystrokes from the \texttt{stdin} buffer.
+The following program uses the \texttt{scanf} standard library function to read keystrokes from the \texttt{stdin} buffe<super>citation_needed<super>
 \begin{lstlisting}[style=C]
 // Program to add two numbers with user prompts
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 
 int main (void) { 
 	int i1;
@@ -298,8 +298,8 @@ int main (void) {
 \end{lstlisting}
 \end{frame}
 
-% \begin{frame}[fragile=singleslide]{Reading from \texttt{stdin} (cont.)}
-% When executed, the following output is produced.  
+% \begin{frame}[fragile=singleslide]{Reading from \texttt{stdin} (con<super>citation_needed<super>)}
+% When executed, the following output is produce<super>citation_needed<super>  
 % \hrule
 % \begin{verbatim}
 % Enter your first integer
@@ -312,14 +312,14 @@ int main (void) {
 % \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{scanf} and \texttt{stdin}}
-The standard library function \texttt{scanf} reads characters from the standard input buffer \texttt{stdin}.  
+The standard library function \texttt{scanf} reads characters from the standard input buffer \texttt{stdin<super>citation_needed<super>  
 \begin{lstlisting}[style=C]
 scanf("%d", &i1);
 \end{lstlisting}
 \begin{itemize}
-\item The first argument is a \textbf{format control string}, which indicates the data type that should be input by the user. (\texttt{\%d} means \texttt{int})
-\item The second argument is the variable we want \texttt{scanf} to put the data in, prepended with the \textbf{address of operator} \texttt{\&}.
-\item We will be covering \texttt{\&} in depth when we talk about \textbf{pointers}...
+\item The first argument is a \textit{format control string}, which indicates the data type that should be input by the use<super>citation_needed<super> (\texttt{\%d} means \texttt{int})
+\item The second argument is the variable we want \texttt{scanf} to put the data in, prepended with the \textit{address of operator} \texttt{\&<super>citation_needed<super>
+\item We will be covering \texttt{\&} in depth when we talk about \textbf{pointers<super>citation_needed<super><super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
@@ -330,18 +330,18 @@ printf("The sum is %d", (i1 + i2));
 \begin{itemize}
 \item To print the value of a variable, you must:
 \begin{itemize}
-\item use a \textbf{format specifying placeholder} in the first argument
+\item use a \textit{format specifying placeholder} in the first argument
 \item supply the variable as the second argument
 \end{itemize}
-\item Each data type has it's own placeholder.
+\item Each data type has it's own placeholde<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Declaring Variables}
 You may have noticed that the above program uses variables
 \begin{itemize}
-\item Variables in C work the same as in other C-based languages.
-\item In contrast to Python, C variables require explicit declaration.
+\item Variables in C work the same as in other C-based language<super>citation_needed<super>
+\item In contrast to Python, C variables require explicit declaratio<super>citation_needed<super>
 \item A variable must be declared with a data type (in this case \texttt{int}), like so:
 \begin{lstlisting}[style=C]
 	int x, y;
@@ -350,9 +350,9 @@ You may have noticed that the above program uses variables
 \item Variables may also be declared with an initial value:
 \begin{lstlisting}[style=C]
 	int x = 7, y = 8;
-	float z = 3.14;
+	float z = <super>citation_needed<super>14;
 \end{lstlisting}
-\item This is known as \textbf{instantiation}.
+\item This is known as \textbf{instantiation<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
@@ -381,16 +381,16 @@ Declaration & Size (bytes) & placeholder \\ \hline
 \begin{frame}[fragile=singleslide]{Don't give me that Bool!}
 You may have noticed that the foregoing slide didn't have booleans on it! 
 \begin{itemize}
-\item Boolean support was added to C in ISO/IEC 9899:1999, which came out in 1999.
-\item Unlike most other languages, booleans are not part of the C prelude! In order to use them, you have to include the standard boolean library.
+\item Boolean support was added to C in ISO/IEC 9899:1999, which came out in 199<super>citation_needed<super>
+\item Unlike most other languages, booleans are not part of the C prelude! In order to use them, you have to include the standard boolean librar<super>citation_needed<super>
 \item Add this line to your set of include statements:
 \begin{lstlisting}[style=C]
-#include<stdbool.h>
+#include<stdboo<super>citation_needed<super>h>
 \end{lstlisting}
-\item Before this library, C programmers would use \texttt{int}'s to represent boolean values.
+\item Before this library, C programmers would use \texttt{int}'s to represent boolean value<super>citation_needed<super>
 \begin{itemize}
 \item 0 $\equiv$ False
-\item All other values $\equiv$ True (1 is typically used).
+\item All other values $\equiv$ True (1 is typically used<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -398,22 +398,22 @@ You may have noticed that the foregoing slide didn't have booleans on it!
 \section[Memory]{More Memory Concepts}
 \begin{frame}{More Memory Concepts}
 \begin{itemize}
-\item \textbf{Variables} are units of memory that have been assigned an identifier.  
-\item The amount of memory allocated is dependent on the data type the variable is declared with.
-\item The specific arrangement of 1's and 0's at the memory location the variable indicates is the value of that variable.
-\item When a new value is assigned to a variable, the underlying memory is overwritten with the new value (i.e., the process is \emph{destructive}).
-\item Reading a variable is \emph{non-destructive}.
+\item \textit{Variables} are units of memory that have been assigned an identifie<super>citation_needed<super>  
+\item The amount of memory allocated is dependent on the data type the variable is declared wit<super>citation_needed<super>
+\item The specific arrangement of 1's and 0's at the memory location the variable indicates is the value of that variabl<super>citation_needed<super>
+\item When a new value is assigned to a variable, the underlying memory is overwritten with the new value (<super>citation_needed<super><super>citation_needed<super>, the process is \emph{destructive}<super>citation_needed<super>
+\item Reading a variable is \emph{non-destructive<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Static vs Dynamic Typing}
 \begin{itemize}
-\item In Python, variables don't need to be declared with a data type (\textbf{Dynamic Typing})
+\item In Python, variables don't need to be declared with a data type (\textit{Dynamic Typing})
 \begin{itemize}
 	\item The Python interpreter manages the memory representation of variables
 \end{itemize}
 \item In C, the type declaration tells the memory system how much memory to reserve for the variable, so the information must be present! 
-\item This is known as \textbf{Static Typing}.
+\item This is known as \textbf{Static Typing<super>citation_needed<super>
 \item Variables in the same program will not necessarily be allocated adjacent memory cells! 
 \end{itemize}
 \end{frame}
@@ -440,12 +440,12 @@ Aritmetic Modulus & \texttt{x \% y} \\ \hline
 
 \begin{frame}{Incremental Improvement}
 \begin{itemize}
-\item The increment and decrement operators (\texttt{++} and \texttt{--} respectively) either add or subtract 1 from the operand.  
-\item \texttt{++} and \texttt{--} use \textbf{implicit assignment}, so no assignment operator is required!
+\item The increment and decrement operators (\texttt{++} and \texttt{--} respectively) either add or subtract 1 from the operan<super>citation_needed<super>  
+\item \texttt{++} and \texttt{--} use \textit{implicit assignment}, so no assignment operator is required!
 \item Whether the operator is prefix or postfix effects the semantics  
 \begin{itemize}
-\item If the operator is prefix (\texttt{++x}), the increment/decrement is executed \emph{before} the containing expression.
-\item If the operator is postfix (\texttt{x--}), the increment/decrement is executed \emph{after} the containing expression.
+\item If the operator is prefix (\texttt{++x}), the increment/decrement is executed \emph{before} the containing expressio<super>citation_needed<super>
+\item If the operator is postfix (\texttt{x--}), the increment/decrement is executed \emph{after} the containing expressio<super>citation_needed<super>
 \end{itemize}
 \item Because of this implicit assignment, using \texttt{++} or \texttt{--} on an integer literal is a \emph{syntax error}!
 \end{itemize}
@@ -453,16 +453,16 @@ Aritmetic Modulus & \texttt{x \% y} \\ \hline
 
 \begin{frame}[fragile=singleslide]{Incremental Example}
 \begin{lstlisting}[style=C]
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 int main() {
    int var1 = 5, var2 = 5;
 
    // var1 is displayed
-   // Then, var1 is increased to 6.
+   // Then, var1 is increased to <super>citation_needed<super>
    printf("Variable 1 = %d\n", var1++);
 
    // var2 is increased to 6 
-   // Then, it is displayed.
+   // Then, it is displaye<super>citation_needed<super>
    printf("Variable 2 = %d\n", ++var2);
 
    return 0;
@@ -493,7 +493,7 @@ Or & \texttt{x \textbar\textbar \hspace{1pt} y} \\ \hline
 \end{tabular} 
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{For Your Next Assignment...}
+\begin{frame}[fragile=singleslide]{For Your Next Assignmen<super>citation_needed<super><super>citation_needed<super>}
 \center
 \begin{tabular}{| c | c | c |}
 \hline
@@ -509,7 +509,7 @@ Assignment plus modulus & \texttt{x \%= y} & \texttt{x = x \% y} \\ \hline
 
 \section[Branching]{Selective Structures}
 \begin{frame}[fragile=singleslide]{\texttt{if}fy Subject Matter}
-If statements are a bit different in C vs Python.
+If statements are a bit different in C vs Pytho<super>citation_needed<super>
 \begin{lstlisting}[style=C]
 	if (<condition>) {
 		<statments>
@@ -531,11 +531,11 @@ In particular, elif is replaced with:
 
 % \begin{frame}
 % \center
-% \includegraphics[scale=0.065]{ifstatement.jpg}
+% \
 % \end{frame}
 
 \begin{frame}[fragile=singleslide]{Let's \texttt{switch}, just in \texttt{case}}
-Python dropped \texttt{switch} blocks in favour of \texttt{elif}.
+Python dropped \texttt{switch} blocks in favour of \texttt{elif<super>citation_needed<super>
 \begin{lstlisting}[style=C]
 	switch (x) {
 		case 1: // executes if x == 1
@@ -549,24 +549,24 @@ Python dropped \texttt{switch} blocks in favour of \texttt{elif}.
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}{Let's \texttt{switch}, just in \texttt{case} (cont.)}
+\begin{frame}{Let's \texttt{switch}, just in \texttt{case} (con<super>citation_needed<super>)}
 \begin{itemize} 
-\item In this example, \texttt{x} is the \textbf{controlling expression}.
-\item The value of the controlling expression is compared to each \textbf{case label}, which is a literal of the return type of the controlling expression.
-\item Execution jumps to the corresponding case, and exits the switch block when it hits a \texttt{break} statement.
-\item This means that execution may pass through \emph{mulitple cases} before exiting the switch block.
-\item \texttt{default} functions like the terminating \texttt{else} in an if-else chain.  If no case matches the value of the controlling expression, execution jumps to the default clause. 
+\item In this example, \texttt{x} is the \textbf{controlling expression<super>citation_needed<super>
+\item The value of the controlling expression is compared to each \textit{case label}, which is a literal of the return type of the controlling expressio<super>citation_needed<super>
+\item Execution jumps to the corresponding case, and exits the switch block when it hits a \texttt{break} statemen<super>citation_needed<super>
+\item This means that execution may pass through \emph{mulitple cases} before exiting the switch bloc<super>citation_needed<super>
+\item \texttt{default} functions like the terminating \texttt{else} in an if-else chai<super>citation_needed<super>  If no case matches the value of the controlling expression, execution jumps to the default claus<super>citation_needed<super> 
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{Let's \texttt{switch}, just in \texttt{case} (cont.)}
+\begin{frame}[fragile=singleslide]{Let's \texttt{switch}, just in \texttt{case} (con<super>citation_needed<super>)}
 \center
-\includegraphics[scale=0.35]{switchflowchart.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Let's \texttt{switch} to an example! }
 \begin{lstlisting}[style=C]
-#include<stdio.h>
+#include<stdi<super>citation_needed<super>h>
 
 int main (void) {
 	char grade;
@@ -576,7 +576,7 @@ int main (void) {
 		case 'A':
 			printf("Amazing! A smart person! ");
 		case 'B':
-			printf("You have met expectations.\n");
+			printf("You have met expectation<super>citation_needed<super>\n");
 			break;
 		case 'C':
 			printf("You need to study harder! ");
@@ -589,7 +589,7 @@ int main (void) {
 \begin{frame}[fragile=singleslide]{Let's \texttt{switch} to an example! }
 \begin{lstlisting}[style=C]
 		case 'F':
-			printf("Well, they're always hiring in the army.\n")
+			printf("Well, they're always hiring in the arm<super>citation_needed<super>\n")
 			break;
 		default :
 			printf("That's not even a proper grade!\n");
@@ -628,54 +628,54 @@ There are also two control statements for use in loops:
 		// <Update Statement>
 	} while (/*<Condition>*/); 
 \end{lstlisting}
-\item \texttt{while} loops test their conditions \emph{before} each loop iteration.
-\item \texttt{do while} loops test their conditions \emph {after} each loop iteration.
-\item This means that a \texttt{do while} loop must execute \emph{at least one} loop iteration.  
-\item Aside from that, there is no semantic difference between \texttt{while} and \texttt{do while} loops.  
+\item \texttt{while} loops test their conditions \emph{before} each loop iteratio<super>citation_needed<super>
+\item \texttt{do while} loops test their conditions \emph {after} each loop iteratio<super>citation_needed<super>
+\item This means that a \texttt{do while} loop must execute \emph{at least one} loop iteratio<super>citation_needed<super>  
+\item Aside from that, there is no semantic difference between \texttt{while} and \texttt{do while} loop<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{for}midable Coding}
 \begin{itemize}
-\item In Python, a for loop is used to iterate over the elements of a data structure (lists, dictionaries, etc.)
-\item In C, for loops are just syntactic sugar for a while loop.
+\item In Python, a for loop is used to iterate over the elements of a data structure (lists, dictionaries, et<super>citation_needed<super>)
+\item In C, for loops are just syntactic sugar for a while loo<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style = C]
 // Countdown from 10 using a while loop
 	int i = 10;
 	while (i >= 0) {
-		printf("%d...\n",i);
+		printf("%<super>citation_needed<super><super>citation_needed<super>\n",i);
 		i --;
 	}	
 // Countdown from 10 using a for loop
 	for (int i = 10; i >= 0; i--) {
-		printf("%d...\n",i);
+		printf("%<super>citation_needed<super><super>citation_needed<super>\n",i);
 	}
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}{\texttt{continue}... and \texttt{break} for lunch!}
-Two statements may be used to control loop execution outside of the loop's main conditional.
+\begin{frame}{\texttt{continue<super>citation_needed<super><super>citation_needed<super> and \texttt{break} for lunch!}
+Two statements may be used to control loop execution outside of the loop's main conditiona<super>citation_needed<super>
 \begin{itemize}
 \item \texttt{break} - exits the loop
 \begin{itemize}
-	\item When the program pointer hits a \texttt{break} statement, the loop it's in is immediately terminated, as if it's conditional test had returned false.  
+	\item When the program pointer hits a \texttt{break} statement, the loop it's in is immediately terminated, as if it's conditional test had returned fals<super>citation_needed<super>  
 	\item \texttt{break} can be very useful for programs with complex logic
-	\item The truth literal can even be used as the loop conditional if the program breaks correctly.
-	\item \texttt{break} is also used in \texttt{switch case} blocks.
+	\item The truth literal can even be used as the loop conditional if the program breaks correctl<super>citation_needed<super>
+	\item \texttt{break} is also used in \texttt{switch case} block<super>citation_needed<super>
 \end{itemize}
 \item \texttt{continue} - starts next iteration
 \begin{itemize}
-\item Jumps immediately to the next iteration of a loop.
-\item The applications are not as numerous, most people use if-branching to not execute the rest of the code inside a loop, but \texttt{continue} can reduce the indentation level of your code.  
+\item Jumps immediately to the next iteration of a loo<super>citation_needed<super>
+\item The applications are not as numerous, most people use if-branching to not execute the rest of the code inside a loop, but \texttt{continue} can reduce the indentation level of your cod<super>citation_needed<super>  
 \end{itemize}
 \end{itemize}
 
 \end{frame}
 
-% \begin{frame}{The last slide comic...}
+% \begin{frame}{The last slide comi<super>citation_needed<super><super>citation_needed<super>}
 % \center
-% \includegraphics[scale=0.3]{good_code.png}
+% \
 % \end{frame}
 
 
@@ -683,7 +683,7 @@ Two statements may be used to control loop execution outside of the loop's main 
 \begin{frame}{Acknowledge}
 \center
 \vspace{8em}
-The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by Dr. Nicholas Moore).  
+The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by D<super>citation_needed<super> Nicholas Moore<super>citation_needed<super>  
 \end{frame}
 
 \end{document}

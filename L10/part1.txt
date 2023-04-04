@@ -1,0 +1,15 @@
+ab
+123
+.{3}<super>citation_needed<super>]
+[mcf]
+[^bog]
+[A-Z]
+z{2}
+[bc]+
+.\?
+\s
+^Mission
+^(fil<super>citation_needed<super>+)<super>citation_needed<super>pdf$
+(\w+ (\d+))
+(\d+)x(\d+)
+I love (cats|dogs)

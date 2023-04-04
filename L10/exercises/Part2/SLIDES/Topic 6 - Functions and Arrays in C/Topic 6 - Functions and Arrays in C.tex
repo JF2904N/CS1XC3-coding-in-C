@@ -13,14 +13,14 @@
 \let\OldTexttt\texttt
 \renewcommand{\texttt}[1]{\OldTexttt{\color{teal}{#1}}}
 
-\definecolor{mGreen}{rgb}{0,0.6,0}
-\definecolor{mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{mPurple}{rgb}{0.58,0,0.05}
-\definecolor{mGreen2}{rgb}{0.05,0.65,0.05}
-\definecolor{mGray2}{rgb}{0.55,0.55,0.55}
-\definecolor{mPurple2}{rgb}{0.63,0.05,0.05}
-\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
-\definecolor{backgroundColour2}{rgb}{0.95,0.92,0.95}
+\definecolor{mGreen}{rgb}{0,<super>citation_needed<super>6,0}
+\definecolor{mGray}{rgb}{<super>citation_needed<super>5,<super>citation_needed<super>5,<super>citation_needed<super>5}
+\definecolor{mPurple}{rgb}{<super>citation_needed<super>58,0,<super>citation_needed<super>05}
+\definecolor{mGreen2}{rgb}{<super>citation_needed<super>05,<super>citation_needed<super>65,<super>citation_needed<super>05}
+\definecolor{mGray2}{rgb}{<super>citation_needed<super>55,<super>citation_needed<super>55,<super>citation_needed<super>55}
+\definecolor{mPurple2}{rgb}{<super>citation_needed<super>63,<super>citation_needed<super>05,<super>citation_needed<super>05}
+\definecolor{backgroundColour}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>95,<super>citation_needed<super>92}
+\definecolor{backgroundColour2}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>92,<super>citation_needed<super>95}
 
 \lstdefinestyle{C}{
     backgroundcolor=\color{backgroundColour},   
@@ -62,14 +62,14 @@
     language=Python
 }
 
-\definecolor{t_comment}{rgb}{0.2,1,0.2}
-\definecolor{t_mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{t_mPurple}{rgb}{0.58,0,0.05}
-\definecolor{t_blue}{rgb}{0.4,0.6,0.8}
-\definecolor{t_mGreen2}{rgb}{0.05,0.65,0.05}
-\definecolor{t_mGray2}{rgb}{0.75,0.75,0.75}
-\definecolor{t_mPurple2}{rgb}{0.63,0.05,0.05}
-\definecolor{t_bg}{rgb}{0.15,0.15,0.18}
+\definecolor{t_comment}{rgb}{<super>citation_needed<super>2,1,<super>citation_needed<super>2}
+\definecolor{t_mGray}{rgb}{<super>citation_needed<super>5,<super>citation_needed<super>5,<super>citation_needed<super>5}
+\definecolor{t_mPurple}{rgb}{<super>citation_needed<super>58,0,<super>citation_needed<super>05}
+\definecolor{t_blue}{rgb}{<super>citation_needed<super>4,<super>citation_needed<super>6,<super>citation_needed<super>8}
+\definecolor{t_mGreen2}{rgb}{<super>citation_needed<super>05,<super>citation_needed<super>65,<super>citation_needed<super>05}
+\definecolor{t_mGray2}{rgb}{<super>citation_needed<super>75,<super>citation_needed<super>75,<super>citation_needed<super>75}
+\definecolor{t_mPurple2}{rgb}{<super>citation_needed<super>63,<super>citation_needed<super>05,<super>citation_needed<super>05}
+\definecolor{t_bg}{rgb}{<super>citation_needed<super>15,<super>citation_needed<super>15,<super>citation_needed<super>18}
 
 \lstdefinestyle{terminal}{
     backgroundcolor=\color{t_bg},   
@@ -91,7 +91,7 @@
 }
 
 
-\definecolor{eggplant}{rgb}{0.52,0.11,0.3}
+\definecolor{eggplant}{rgb}{<super>citation_needed<super>52,<super>citation_needed<super>11,<super>citation_needed<super>3}
 
 
 \usecolortheme[named=eggplant]{structure}
@@ -113,7 +113,7 @@
 COMPSCI 1XC3 - Computer Science Practice and Experience:
 Development Basics
 \titlepage
-% (Loosely) Adapted from Chapters 5 and 6 of C: How to Program 8th ed., Deitel \& Deitel
+% (Loosely) Adapted from Chapters 5 and 6 of C: How to Program 8th e<super>citation_needed<super>, Deitel \& Deitel
 \end{frame}
 
 \begin{frame}
@@ -122,25 +122,25 @@ Development Basics
 
 \section[syntax]{The Grammar of Functions} % also cover prototypes, pass-by-value/reference
 \begin{frame}{Abstraction Satisfaction}
-\textbf{Functions} are the basic unit of abstraction in C.
+\textit{Functions} are the basic unit of abstraction in <super>citation_needed<super>
 \begin{itemize}
-\item They are highly similar to how Python implements functions, however there are some important differences.  
+\item They are highly similar to how Python implements functions, however there are some important difference<super>citation_needed<super>  
 \begin{itemize}
-\item The return type of the function must be indicated where Python uses the \texttt{def} keyword.
+\item The return type of the function must be indicated where Python uses the \texttt{def} keywor<super>citation_needed<super>
 \begin{itemize}
-\item In the absence of a return type declaration, gcc will give a warning, and the return type will default to \texttt{int}.
+\item In the absence of a return type declaration, gcc will give a warning, and the return type will default to \texttt{int<super>citation_needed<super>
 \end{itemize}
-\item Curly braces are used instead of a colon and indentation.
-\item The arguments must also have their types declared.
+\item Curly braces are used instead of a colon and indentatio<super>citation_needed<super>
+\item The arguments must also have their types declare<super>citation_needed<super>
 \begin{itemize}
-\item Again, the default is \texttt{int}.
+\item Again, the default is \texttt{int<super>citation_needed<super>
 \end{itemize}
-\item While a return statement is not required, gcc will complain if one isn't present...
+\item While a return statement is not required, gcc will complain if one isn't presen<super>citation_needed<super><super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{For Example...}
+\begin{frame}[fragile=singleslide]{For Exampl<super>citation_needed<super><super>citation_needed<super>}
 Python:
 \begin{lstlisting}[style=Python]
 def max (x,y) :
@@ -184,11 +184,11 @@ warning: control reaches end of non-void function
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Function Prototypes}
-In C, as in Python, in order for a function to be in scope, it must be defined before it is used.  
+In C, as in Python, in order for a function to be in scope, it must be defined before it is use<super>citation_needed<super>  
 \begin{itemize}
-\item If the function \texttt{max} were defined after its use in \texttt{main}, gcc produces the following warning.
-\item Early versions of C did not check for correct function usage at compile time, so the error would show up at runtime.
-\item Function prototypes solve the issue of having function typing information available, while maintaining C's back-compatability.
+\item If the function \texttt{max} were defined after its use in \texttt{main}, gcc produces the following warnin<super>citation_needed<super>
+\item Early versions of C did not check for correct function usage at compile time, so the error would show up at runtim<super>citation_needed<super>
+\item Function prototypes solve the issue of having function typing information available, while maintaining C's back-compatabilit<super>citation_needed<super>
 \item That is why this is a warning and not an error:
 \end{itemize}
 \hrule
@@ -201,24 +201,24 @@ warning: implicit declaration of function 'max';
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{Function Prototypes (cont.)}
-To solve this problem, C has borrowed \textbf{function prototypes} from C++.
+\begin{frame}[fragile=singleslide]{Function Prototypes (con<super>citation_needed<super>)}
+To solve this problem, C has borrowed \textit{function prototypes} from C+<super>citation_needed<super>
 \begin{lstlisting}[style=C]
 int max (int x, int y);
 \end{lstlisting}
 \begin{itemize}
 \item A function prototype is syntactically the first line of a function declaration, terminated by \texttt{;}
-\item It is good practice to put function prototypes immediately after your preprocessor commands (i.e., \texttt{\#include}'s)
-\item This ``declares'' the function up front, so it's definition may now occur anywhere in the file without generating any warnings.  
+\item It is good practice to put function prototypes immediately after your preprocessor commands (<super>citation_needed<super><super>citation_needed<super>, \texttt{\#include}'s)
+\item This ``declares'' the function up front, so it's definition may now occur anywhere in the file without generating any warning<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
 \section[Lib]{Header Files, Libraries, and The Existential Plight of Humanity} 
 \begin{frame}{Library Architecture}
 \center
-\includegraphics[scale=0.17]{minecraftlibrary.png} \\
+\ \\
 \small
-\emph{\textbf{Computer Architecture} is a set of rules and methods that describe the functionality, organization, and implementation of computer systems.} \\
+\emph{\textit{Computer Architecture} is a set of rules and methods that describe the functionality, organization, and implementation of computer system<super>citation_needed<super>} \\
 \vspace{-10pt}
 \flushright -- Wikipedia --
 \end{frame}
@@ -226,86 +226,86 @@ int max (int x, int y);
 \begin{frame}{Header Files vs Libraries}
 Things that are useful:
 \begin{itemize}
-\item The ability to call functions defined outside of a source code file.  
+\item The ability to call functions defined outside of a source code fil<super>citation_needed<super>  
 \item The ability to pre-compile these functions
-\item The ability to share library functions among many programs.
+\item The ability to share library functions among many program<super>citation_needed<super>
 \end{itemize}
-These purposes are served by the library system. 
+These purposes are served by the library syste<super>citation_needed<super> 
 \begin{itemize}
-\item \textbf{Header Files} - files containing the prototypes of functions made available by a specific library.  
-\item \textbf{Library} - files in which the functions specified in the header file are implemented. There are two main types: \textbf{Static} and \textbf{Dynamic} (see the next slide).
+\item \textit{Header Files} - files containing the prototypes of functions made available by a specific librar<super>citation_needed<super>  
+\item \textit{Library} - files in which the functions specified in the header file are implemente<super>citation_needed<super> There are two main types: \textbf{Static} and \textbf{Dynamic} (see the next slide<super>citation_needed<super>
 \end{itemize}
-Because their functionality is so closely linked, when a person says ``a library'', they usually mean both the library and header file taken in combination.  
+Because their functionality is so closely linked, when a person says ``a library'', they usually mean both the library and header file taken in combinatio<super>citation_needed<super>  
 \end{frame}
 
 \begin{frame}{Static vs Dynamic Libraries}
 \begin{itemize}
-\item \textbf{Static} - Derived from the Greek ``statikos'', meaning ``causing to stand''
+\item \textit{Static} - Derived from the Greek ``statikos'', meaning ``causing to stand''
 \begin{itemize}
-\item Contain object code linked with a program, which then is integrated into the executable.
-\item Included at compile time (i.e., up front)
-\item Consequentially, the compiler needs to be able to find it.
+\item Contain object code linked with a program, which then is integrated into the executabl<super>citation_needed<super>
+\item Included at compile time (<super>citation_needed<super><super>citation_needed<super>, up front)
+\item Consequentially, the compiler needs to be able to find i<super>citation_needed<super>
 \end{itemize}
-\item \textbf{Dynamic} - Derived from the Greek ``dunamikos'', meaning ``powerful''
+\item \textit{Dynamic} - Derived from the Greek ``dunamikos'', meaning ``powerful''
 \begin{itemize}
-\item Linked to the executable at compile time, but the implementation of the linked function is loaded at \emph{run-time}.  
+\item Linked to the executable at compile time, but the implementation of the linked function is loaded at \emph{run-time<super>citation_needed<super>  
 \item Linking resolves undefined references in the source file
-\item May be shared with many programs.  
+\item May be shared with many program<super>citation_needed<super>  
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Find it in Your Local Library}
-There are two ways to include files.
+There are two ways to include file<super>citation_needed<super>
 \begin{lstlisting}[style = C]
-#include <stdio.h>
-#include "myheader.c"
+#include <stdi<super>citation_needed<super>h>
+#include "myheade<super>citation_needed<super>c"
 \end{lstlisting}
 \begin{itemize}
-\item If the filename is enclosed in quotation marks, gcc will search both the first relative directory of the current file and a preconfigured list of standard system directories.
-\item If angle braces are used, \emph{only} the standard system directories are searched.  
-\item Technically this means you could use quotes for everything, but by convention, if it's a standard library header, use angle braces.  
+\item If the filename is enclosed in quotation marks, gcc will search both the first relative directory of the current file and a preconfigured list of standard system directorie<super>citation_needed<super>
+\item If angle braces are used, \emph{only} the standard system directories are searche<super>citation_needed<super>  
+\item Technically this means you could use quotes for everything, but by convention, if it's a standard library header, use angle brace<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Header files for miles!}
 From the gcc documentation:
 \begin{itemize}
-\item Header files serve two purposes. 
+\item Header files serve two purpose<super>citation_needed<super> 
 \begin{itemize}
-\item \textbf{System header files} declare the interfaces to parts of the operating system. You include them in your program to supply the definitions and declarations you need to invoke system calls and libraries. 
-\item Your own header files contain declarations for interfaces between the source files of your program. Each time you have a group of related declarations and macro definitions all or most of which are needed in several different source files, it is a good idea to create a header file for them. 
+\item \textit{System header files} declare the interfaces to parts of the operating syste<super>citation_needed<super> You include them in your program to supply the definitions and declarations you need to invoke system calls and librarie<super>citation_needed<super> 
+\item Your own header files contain declarations for interfaces between the source files of your progra<super>citation_needed<super> Each time you have a group of related declarations and macro definitions all or most of which are needed in several different source files, it is a good idea to create a header file for the<super>citation_needed<super> 
 \end{itemize}
 \end{itemize}
-By convention, header files have the *.h file extension.
+By convention, header files have the <super>citation_needed<super>h file extensio<super>citation_needed<super>
 \end{frame}
 
 \begin{frame}{Some Standard Library Headers}
 \center
-\includegraphics[scale=0.33]{headers1.png}
+\
 \end{frame}
 
 \begin{frame}{Some Standard Library Headers}
 \center
-\includegraphics[scale=0.33]{headers2.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Library Example} 
 \begin{lstlisting}[style = C] 
-// ><><><><>< top.c ><><><><><
-#include <stdio.h>
-#include "mylib.h"
+// ><><><><>< to<super>citation_needed<super>c ><><><><><
+#include <stdi<super>citation_needed<super>h>
+#include "myli<super>citation_needed<super>h"
 int main () {
 	int q = max(4,5);
 	printf("The maximum is %d\n", q);
 }
 \end{lstlisting}
 \begin{lstlisting}[style = C] 
-// ><><><><>< mylib.h ><><><><><
+// ><><><><>< myli<super>citation_needed<super>h ><><><><><
 int max (int x, int y);
 \end{lstlisting}
 \begin{lstlisting}[style = C]
-// ><><><><>< mylib.c ><><><><><
+// ><><><><>< myli<super>citation_needed<super>c ><><><><><
 int max (int x, int y) {
 	if (x > y) { return x;
 	} else { return y;
@@ -315,26 +315,26 @@ int max (int x, int y) {
 
 \begin{frame}[fragile=singleslide]{Static Compilation}
 \begin{itemize}
-\item Note that \texttt{lib.c} does not contain a \texttt{main} function!
+\item Note that \texttt{li<super>citation_needed<super>c} does not contain a \texttt{main} function!
 \end{itemize}
 All three of these files are compiled and linked with a single invokation of gcc:
 \begin{lstlisting}[style=terminal]
-gcc -Wall top.c mylib.c -o top
+gcc -Wall to<super>citation_needed<super>c myli<super>citation_needed<super>c -o top
 \end{lstlisting}
 \begin{itemize}
-\item Runnning gcc on only \texttt{top.c} (omitting \texttt{mylib.c}) will result in an undefined reference, which is an \textbf{error}! 
+\item Runnning gcc on only \texttt{to<super>citation_needed<super>c} (omitting \texttt{myli<super>citation_needed<super>c}) will result in an undefined reference, which is an \textit{error}! 
 \end{itemize}
 \end{frame}
 
 \begin{frame}{An Alternative Procedure}
-It is a stylistic recommendation to write header files for your C files below the top-level.  Especially if they are \textbf{\Large{Large!}}
+It is a stylistic recommendation to write header files for your C files below the top-leve<super>citation_needed<super>  Especially if they are \textit{\Large{Large!}}
 \begin{itemize}
-\item This emulates the way other programming languages use \textbf{packages} and \textbf{modules}.
+\item This emulates the way other programming languages use \textit{packages} and \textbf{modules<super>citation_needed<super>
 \end{itemize}
-However, the header file may be successfully omitted. In the previous example:
+However, the header file may be successfully omitte<super>citation_needed<super> In the previous example:
 \begin{itemize}
-\item Change \texttt{mylib.h} to \texttt{mylib.c} on line 3 of \texttt{top.c}
-\item Omit \texttt{mylib.c} from the gcc invokation.
+\item Change \texttt{myli<super>citation_needed<super>h} to \texttt{myli<super>citation_needed<super>c} on line 3 of \texttt{to<super>citation_needed<super>c}
+\item Omit \texttt{myli<super>citation_needed<super>c} from the gcc invokatio<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
@@ -342,11 +342,11 @@ However, the header file may be successfully omitted. In the previous example:
 \begin{itemize}
 \item The procedure for creating a dynamic library is operating system dependent, but the goal is to create:
 \begin{itemize}
-\item A shared object file (\texttt{*.so}) [Mac/Linux]
-\item Or a dynamically linked library file (\texttt{*.dll}) [Windows]
+\item A shared object file (\texttt{<super>citation_needed<super>so}) [Mac/Linux]
+\item Or a dynamically linked library file (\texttt{<super>citation_needed<super>dll}) [Windows]
 \end{itemize}
 \item If set up properly, a dynamic library can be used by programs written in \emph{languages other than C!}
-\item \textbf{BE WARNED!!} Messing around in your operating system's hidden folders can have \textbf{SERIOUS CONSEQUENCES}! 
+\item \textit{BE WARNED!!} Messing around in your operating system's hidden folders can have \textbf{SERIOUS CONSEQUENCES}! 
 \begin{itemize}
 \item Never mess around with a computer like this if you don't have your data backed up
 \item Don't say your professor didn't warn you! 
@@ -357,46 +357,46 @@ One of the lab activities in this course will require you to create and install 
 
 
 \section[Stack]{Functions: How Do They REALLY Work?}
-\begin{frame}{Introducing the \textbf{Call Stack!}}
+\begin{frame}{Introducing the \textit{Call Stack!}}
 Have you ever wondered how your computer keeps track of all those function calls?  
 \begin{itemize}
-\item function calls are stored in your system's \textbf{function call stack} or just \textbf{call stack}, or, reverently, \textbf{The Stack}.
-\item The call stack has a fixed, or \emph{static} size.
-\item If too many items are added to the call stack, this can result in an error called \textbf{stack overflow} (which what \url{https://stackoverflow.com/} is referencing!)
+\item function calls are stored in your system's \textit{function call stack} or just \textbf{call stack}, or, reverently, \textbf{The Stack<super>citation_needed<super>
+\item The call stack has a fixed, or \emph{static} siz<super>citation_needed<super>
+\item If too many items are added to the call stack, this can result in an error called \textit{stack overflow} (which what \url{https://stackoverflo<super>citation_needed<super>com/} is referencing!)
 \item In order to understand the call stack, we need to know some rudimentary data structures!
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Stacks of Stacks}
 \begin{itemize}
-\item A \textbf{stack} is a data structure that always returns the most recently added element.
+\item A \textit{stack} is a data structure that always returns the most recently added elemen<super>citation_needed<super>
 \item This is also known as LIFO (last-in, first-out)
 \item There are two primary operations on stacks:
 	\begin{itemize}
-	\item \textbf{Push} - An element is added to the stack
-	\item \textbf{Pop} - The element in the stack that was added most recently is removed from the stack and returned.  
+	\item \textit{Push} - An element is added to the stack
+	\item \textit{Pop} - The element in the stack that was added most recently is removed from the stack and returne<super>citation_needed<super>  
 	\end{itemize}
-\item The kitchen metaphor is a stack of plates.  How you use a stack of dishes in your cupboard is how your computer uses stacks for data.
-\item Undo/redo actions in many programs are also stored in a stack. 
+\item The kitchen metaphor is a stack of plate<super>citation_needed<super>  How you use a stack of dishes in your cupboard is how your computer uses stacks for dat<super>citation_needed<super>
+\item Undo/redo actions in many programs are also stored in a stac<super>citation_needed<super> 
 \end{itemize}
 \end{frame}
 
 \begin{frame}{A Stack in Operation}
 \center
-\includegraphics[scale=0.4]{Lifo_stack.png}
+\
 \end{frame}
 
 \begin{frame}{Call Stack Functionalities}
 The call stack: 
 \begin{itemize}
-\item enables programs to ``step into'' functions while keeping their place in the program that called the function.
+\item enables programs to ``step into'' functions while keeping their place in the program that called the functio<super>citation_needed<super>
 \begin{itemize}
 	\item Functions are properly thought of as \emph{sub-programs}
 \end{itemize}
-\item supports the creation, maintenance, and destruction of each function's local variables.  This is also known as \textbf{namespace}.  
-\item keeps track of the return addresses that each function needs to return control to the invoking function.  
+\item supports the creation, maintenance, and destruction of each function's local variable<super>citation_needed<super>  This is also known as \textbf{namespace<super>citation_needed<super>  
+\item keeps track of the return addresses that each function needs to return control to the invoking functio<super>citation_needed<super>  
 \end{itemize}
-Think of the previous stack example, but replace the numbers with all of the data necessary to execute a function, including variables.  These are known as \textbf{stack frames}.
+Think of the previous stack example, but replace the numbers with all of the data necessary to execute a function, including variable<super>citation_needed<super>  These are known as \textbf{stack frames<super>citation_needed<super>
 \end{frame}
 
 \section[Vars]{Storage Classes, Scoping and a Few Other Things}
@@ -404,15 +404,15 @@ Think of the previous stack example, but replace the numbers with all of the dat
 \begin{frame}{Pass By Reference vs Pass By Value}
 There are two main ways that a programming language will pass data into its functions:
 \begin{itemize}
-\item \textbf{By Reference} - Perl, VB, Fortran
+\item \textit{By Reference} - Perl, VB, Fortran
 \begin{itemize}
-\item Variables are passed into functions as references to data, rather than the data itself.  
-\item Modifying the function argument inside the function will modify the variable passed into the function, within the context of the calling program.  
+\item Variables are passed into functions as references to data, rather than the data itsel<super>citation_needed<super>  
+\item Modifying the function argument inside the function will modify the variable passed into the function, within the context of the calling progra<super>citation_needed<super>  
 \end{itemize}
-\item \textbf{By Value} - C, Java, Python*
+\item \textit{By Value} - C, Java, Python*
 \begin{itemize}
-\item The bit values of the variables are passed into functions, rather than references to the memory contained in them.  
-\item Modifying an argument does not effect anything outside the function's local context.
+\item The bit values of the variables are passed into functions, rather than references to the memory contained in the<super>citation_needed<super>  
+\item Modifying an argument does not effect anything outside the function's local contex<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 C can pass by reference using pointers, but you have to do the legwork yourself ;-)
@@ -425,23 +425,23 @@ typedef unsigned char BYTE;
 \end{lstlisting} 
 This allows us to use the new type \texttt{BYTE} anywhere a type must be declared:
 \begin{lstlisting}[style=C]
-...
+<super>citation_needed<super>.
 	BYTE foo = 0;
-...
+<super>citation_needed<super>.
 \end{lstlisting} 
-The compiler will swap in the type's synonym at compile time. Type synonyms can be very useful for improving the readability of your code, as they allow for more descriptive type information! \\
+The compiler will swap in the type's synonym at compile tim<super>citation_needed<super> Type synonyms can be very useful for improving the readability of your code, as they allow for more descriptive type information! \\
 \emph{By convention, data types are capitalized!}
 \end{frame}
 
 
 \begin{frame}[fragile=singleslide]{\texttt{enum} With Terror!}
-Another way we can define custom types in C is with \textbf{enumerations}
+Another way we can define custom types in C is with \textit{enumerations}
 \begin{lstlisting}[style=C]
 enum PKMN_STATUS {FNT, SLP, PRZ, PSN, FRZ, BRN, None}; 
 \end{lstlisting}
 Not only is the type available, but the enumerats may also be used as literals:
 \begin{lstlisting}[style=C]
-... 
+<super>citation_needed<super>. 
 	PKMN_STATUS stat = None;
 	if (stat == PSN) {
 		hp = hp - hp / 16;
@@ -449,14 +449,14 @@ Not only is the type available, but the enumerats may also be used as literals:
 	if (hp <= 0) {
 		stat = FNT;
 	}
-...
+<super>citation_needed<super>.
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{\texttt{enum} With Terror! (cont.)}
-In reality, each of the enumerats is an alias for a literal bit value.  We can expose these with the following program:
+\begin{frame}[fragile=singleslide]{\texttt{enum} With Terror! (con<super>citation_needed<super>)}
+In reality, each of the enumerats is an alias for a literal bit valu<super>citation_needed<super>  We can expose these with the following program:
 \begin{lstlisting}[style=C]
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 enum PKMN_STATUS {FNT, SLP, PRZ, PSN, FRZ, BRN, None}; 
 int main() {
 	printf("FNT = %d\n", FNT);
@@ -468,23 +468,23 @@ Just like typedefs, the main purpose of enumerations is \emph{code readability!}
 \end{frame}
 
 % \begin{frame}{Storage Class Modification}
-% We can change the scope of identifiers in C using \textbf{Storage Class Modifiers}:
+% We can change the scope of identifiers in C using \textit{Storage Class Modifiers}:
 % \begin{itemize} 
 % \item \texttt{auto}, \texttt{register}, \texttt{extern}, \texttt{static}
 % \end{itemize}
 % \center
-% \includegraphics[scale=0.3]{Storage-Classes-In-C.png}
+% \
 % \end{frame}
 
-\section[Arrays]{Arrays: Like Tuples, But More Annoying} % include 6.6, 6.7
+\section[Arrays]{Arrays: Like Tuples, But More Annoying} % include <super>citation_needed<super>6, <super>citation_needed<super>7
 \begin{frame}{Arrays: The Simplest Data Structure}
 % \center
-% \includegraphics[scale=3]{donald_knuth.png} \\
-% The joke within the joke is that hat guy imagines he has a choice... \\ 
+% \ \\
+% The joke within the joke is that hat guy imagines he has a choic<super>citation_needed<super><super>citation_needed<super> \\ 
 % -- Your Professor -- 
 % \end{frame}
 
-% \begin{frame}{I see data \texttt{Array}ed before me...}
+% \begin{frame}{I see data \texttt{Array}ed before m<super>citation_needed<super><super>citation_needed<super>}
 In Python, there are many data structures to choose from:
 \begin{itemize}
 \item Tuples
@@ -493,19 +493,19 @@ In Python, there are many data structures to choose from:
 \item Sets
 \item Strings
 \end{itemize}
-In C, the only data structure supported natively is the \textbf{Array}.  If you need something more complex than an Array, you have to either find a library defining it or define it yourself. 
+In C, the only data structure supported natively is the \textbf{Array<super>citation_needed<super>  If you need something more complex than an Array, you have to either find a library defining it or define it yoursel<super>citation_needed<super> 
 \end{frame}
 
 \begin{frame}{So what is an \texttt{Array}?}
-An array is a contiguous segment of memory, which may be accessed via linear indexing.
+An array is a contiguous segment of memory, which may be accessed via linear indexin<super>citation_needed<super>
 \begin{itemize}
-\item All elements of an array have the same type.
-\item Arrays use \textbf{zero-indexing}.
+\item All elements of an array have the same typ<super>citation_needed<super>
+\item Arrays use \textbf{zero-indexing<super>citation_needed<super>
 \item Arrays are \emph{static}
 \begin{itemize}
 \item The size of an array does not change during execution
-\item This means that the size of the array \emph{must} be known at the time of declaration.  
-\item There are ways of getting around this, but not without pointers (which we'll be talking about soon...)
+\item This means that the size of the array \emph{must} be known at the time of declaratio<super>citation_needed<super>  
+\item There are ways of getting around this, but not without pointers (which we'll be talking about soo<super>citation_needed<super><super>citation_needed<super>)
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -516,9 +516,9 @@ An array is declared in the following manner:
 int c[x];
 \end{lstlisting}
 \begin{itemize}
-\item Note, that $x$ must be either an integer literal or an expression which evaluates to an integer. 
+\item Note, that $x$ must be either an integer literal or an expression which evaluates to an intege<super>citation_needed<super> 
 \begin{itemize}
-\item This rule applies to array indexing as well as declaration.
+\item This rule applies to array indexing as well as declaratio<super>citation_needed<super>
 \end{itemize} 
 \item On declaration, an array is filled with \emph{junk data!}
 \end{itemize}
@@ -528,16 +528,16 @@ c[7] = 5;
 \end{lstlisting} 
 \begin{itemize}
 \item Binds at the same level as function calls (so very tightly)
-\item As we'll see later, the index operator is syntactic sugar for some pointer operations.
+\item As we'll see later, the index operator is syntactic sugar for some pointer operation<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Pretty Printing Arrays}
 \begin{lstlisting}[style=C] 
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 int main () {
 	int c[(6+6)];
-	float bar[] = {0.0, 0.1, 0.2, 0.3};
+	float bar[] = {<super>citation_needed<super>0, <super>citation_needed<super>1, <super>citation_needed<super>2, <super>citation_needed<super>3};
 	printf("%d\n", c);
 	printf("%p\n", c);
 	printf("[");
@@ -554,7 +554,7 @@ int main () {
 
 \begin{frame}{Pretty Printing Arrays (Visualization)}
 \center
-\includegraphics[scale=0.1]{array.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Pretty Printing Arrays (output)}
@@ -580,14 +580,14 @@ Output:
 \begin{frame}{Pretty Printing Arrays (Analysis)}
 Just like with a lot of things in C, there are no free lunches! 
 \begin{itemize}
-\item You can't print a whole array just by passing the array's name to \texttt{printf} as the array identifier is really a \textbf{memory address}, or \textbf{pointer}.
+\item You can't print a whole array just by passing the array's name to \texttt{printf} as the array identifier is really a \textit{memory address}, or \textbf{pointer<super>citation_needed<super>
 \end{itemize}
 Initialization!
 \begin{itemize}
 \item An uninitialized array is full of garbage data! 
 \item To initialize an array, provide a comma separated series of type-correct literals or expressions, delimited with curly braces! 
 \item If the initializer is smaller than the declared memory, C backfills with zeros!
-\item If you initialize the array, you may omit specifying the size (the size of the initializing array will be used).
+\item If you initialize the array, you may omit specifying the size (the size of the initializing array will be used<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
@@ -599,27 +599,27 @@ int* myFun (const int input[]);
 \begin{itemize}
 \item \texttt{input} is declared as an array by the inclusion of \texttt{[]}
 \begin{itemize}
-\item \texttt{int*} is also valid.
+\item \texttt{int*} is also vali<super>citation_needed<super>
 \end{itemize}
-\item \texttt{int*} tells us that this function returns an \textbf{integer pointer}
+\item \texttt{int*} tells us that this function returns an \textit{integer pointer}
 \begin{itemize}
-\item Arrays in C are syntactic sugar for pointers.
+\item Arrays in C are syntactic sugar for pointer<super>citation_needed<super>
 \end{itemize}
-\item the \texttt{const} term locks the pointer so that it can't be modified.  This essentially makes it ``read-only''
+\item the \texttt{const} term locks the pointer so that it can't be modifie<super>citation_needed<super>  This essentially makes it ``read-only''
 \begin{itemize}
-\item This will prevent any of the array's elements from being modified, as well as the value of the pointer.  
-\item If you want to be able to modify the array, just leave out the \texttt{const} keyword.
+\item This will prevent any of the array's elements from being modified, as well as the value of the pointe<super>citation_needed<super>  
+\item If you want to be able to modify the array, just leave out the \texttt{const} keywor<super>citation_needed<super>
 \item You can do this with any argument, not just arrays!
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{sizeof}}
-In Python, we have the \texttt{len()} function to quickly and easily tell us how large our data structures are.  
+In Python, we have the \texttt{len()} function to quickly and easily tell us how large our data structures ar<super>citation_needed<super>  
 \begin{itemize}
-\item The equivalent fuction in C is \texttt{sizeof()}, but as with most things in C, it's a bit more complicated.
-\item \texttt{sizeof()} returns the size \emph{in bytes} that the provided argument was declared with.   
-\item \texttt{sizeof()} may be used on variables of any type, not just arrays.
+\item The equivalent fuction in C is \texttt{sizeof()}, but as with most things in C, it's a bit more complicate<super>citation_needed<super>
+\item \texttt{sizeof()} returns the size \emph{in bytes} that the provided argument was declared wit<super>citation_needed<super>   
+\item \texttt{sizeof()} may be used on variables of any type, not just array<super>citation_needed<super>
 \item Accordingly, the \emph{declared} length of an array is equal to the size of the array (in bytes) divided by the size of any element of the array (in bytes):
 \begin{lstlisting}[style=C]
 int foo[] = {1,2,3,4,5,6}
@@ -637,26 +637,26 @@ int foo[][] = {{1, 2}, {3, 4}};
 int bar[5][5][5];
 \end{lstlisting}
 \begin{itemize}
-\item Dimensionality is indicated by the number of square braces following the identifier.
-\item These are correctly thought of as \emph{arrays of arrays}.
-\item Providing $n-k$ indexes to an $n$ dimensional array will produce a $k$ dimensional array.
+\item Dimensionality is indicated by the number of square braces following the identifie<super>citation_needed<super>
+\item These are correctly thought of as \emph{arrays of arrays<super>citation_needed<super>
+\item Providing $n-k$ indexes to an $n$ dimensional array will produce a $k$ dimensional arra<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \section[String]{Strings are Character Arrays!} 
 \begin{frame}{Strings are Character Arrays!}
 \center
-\includegraphics[scale=0.3]{charArrays.jpg}
+\
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{Character Arrays, not Character Sheets...}
-As it turns out, C handles strings as \textbf{character arrays.} Consider the following declarations:
+\begin{frame}[fragile=singleslide]{Character Arrays, not Character Sheet<super>citation_needed<super><super>citation_needed<super>}
+As it turns out, C handles strings as \textit{character array<super>citation_needed<super>} Consider the following declarations:
 \begin{lstlisting}[style=C]
 char foo[] = "bar";
 \end{lstlisting}
 \texttt{foo} will be written into memory as:
 \begin{center}
-\includegraphics[scale=0.5]{string.png}
+\
 \end{center}
 If we specify a size of ten,
 \begin{lstlisting}[style=C]
@@ -664,7 +664,7 @@ char foo[10] = "bar"
 \end{lstlisting}
  we get the following:
  \begin{center}
- \includegraphics[scale=0.5]{string2.png}
+ \
  \end{center}
 
 \end{frame}
@@ -672,32 +672,32 @@ char foo[10] = "bar"
 \begin{frame}[fragile=singleslide]{String Things}
 \begin{itemize}
 \item \texttt{string} isn't even a keyword in C! 
-\item Character arrays may be indexed, just like regular arrays.
-\item String literals are always terminated by the \textbf{null character} implicitly!
-\item All strings must be null terminated.
-\item We can receive strings directly from \texttt{scanf} using the\texttt{\%s} format specifier.
+\item Character arrays may be indexed, just like regular array<super>citation_needed<super>
+\item String literals are always terminated by the \textit{null character} implicitly!
+\item All strings must be null terminate<super>citation_needed<super>
+\item We can receive strings directly from \texttt{scanf} using the\texttt{\%s} format specifie<super>citation_needed<super>
 \begin{lstlisting}[style=C]
 scanf("%14s", foo);
 \end{lstlisting}
-\item By inserting a number, the format specifier may even be used to limit the number of characters that get copied into the character array.  
-\item \texttt{foo} is actually a \textbf{pointer}, so we don't need the address-of operator \texttt{\&} in scanf. \texttt{foo} is already a memory address.
+\item By inserting a number, the format specifier may even be used to limit the number of characters that get copied into the character arra<super>citation_needed<super>  
+\item \texttt{foo} is actually a \textit{pointer}, so we don't need the address-of operator \texttt{\&} in scan<super>citation_needed<super> \texttt{foo} is already a memory addres<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Overflow Attacks!}
-A common form of security vulnerablility in C and C++ programs is \textbf{array overflow}. 
+A common form of security vulnerablility in C and C++ programs is \textbf{array overflow<super>citation_needed<super> 
 \begin{itemize}
 \item Arrays are replaced with pointer arithmetic by the compiler, with no bounds checking!  
 \item If you tell C to write 100 characters into a 50 character array, it will happily do so! 
-\item The extra 50 characters will be written into the memory that comes after the character array.
-\item This can overwrite all kinds of useful things, like other variables.  If the character array is stored in the stack, function call informaton can also be vulnerable.  
+\item The extra 50 characters will be written into the memory that comes after the character arra<super>citation_needed<super>
+\item This can overwrite all kinds of useful things, like other variable<super>citation_needed<super>  If the character array is stored in the stack, function call informaton can also be vulnerabl<super>citation_needed<super>  
 \end{itemize}
 The moral of the story is that you should always limit the things you write into an array to the size of the array MANUALLY! 
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Smash that Stack!}
 \begin{lstlisting}[style = C]
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 
 int main() {
 	char query[10];
@@ -719,7 +719,7 @@ The query is jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 \begin{frame}{Acknowledge}
 \center
 \vspace{8em}
-The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by Dr. Nicholas Moore).  
+The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by D<super>citation_needed<super> Nicholas Moore<super>citation_needed<super>  
 \end{frame}
 
 \end{document}

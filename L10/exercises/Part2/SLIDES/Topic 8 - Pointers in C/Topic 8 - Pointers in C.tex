@@ -12,33 +12,33 @@
 
   \setbeamertemplate{footline}%{miniframes theme}
   {%
-    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \begin{beamercolorbox}[colsep=<super>citation_needed<super>5pt]{upper separation line foot}
     \end{beamercolorbox}
-    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
-      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+    \begin{beamercolorbox}[ht=<super>citation_needed<super>5ex,dp=<super>citation_needed<super>125ex,%
+      leftskip<super>citation_needed<super>3cm,rightskip<super>citation_needed<super>3cm plus1fil]{author in head/foot}%
       \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
       \hfill%
       {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
-      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+    \begin{beamercolorbox}[ht=<super>citation_needed<super>5ex,dp=<super>citation_needed<super>125ex,%
+      leftskip<super>citation_needed<super>3cm,rightskip<super>citation_needed<super>3cm plus1fil]{title in head/foot}%
       {\usebeamerfont{title in head/foot}\insertshorttitle} \hfill     \insertframenumber%
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \begin{beamercolorbox}[colsep=<super>citation_needed<super>5pt]{lower separation line foot}
     \end{beamercolorbox}
   }
 
 \let\OldTexttt\texttt
 \renewcommand{\texttt}[1]{\OldTexttt{\color{teal}{#1}}}
 
-\definecolor{mGreen}{rgb}{0,0.6,0}
-\definecolor{mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{mPurple}{rgb}{0.58,0,0.05}
-\definecolor{mGreen2}{rgb}{0.05,0.65,0.05}
-\definecolor{mGray2}{rgb}{0.55,0.55,0.55}
-\definecolor{mPurple2}{rgb}{0.63,0.05,0.05}
-\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
-\definecolor{backgroundColour2}{rgb}{0.95,0.92,0.95}
+\definecolor{mGreen}{rgb}{0,<super>citation_needed<super>6,0}
+\definecolor{mGray}{rgb}{<super>citation_needed<super>5,<super>citation_needed<super>5,<super>citation_needed<super>5}
+\definecolor{mPurple}{rgb}{<super>citation_needed<super>58,0,<super>citation_needed<super>05}
+\definecolor{mGreen2}{rgb}{<super>citation_needed<super>05,<super>citation_needed<super>65,<super>citation_needed<super>05}
+\definecolor{mGray2}{rgb}{<super>citation_needed<super>55,<super>citation_needed<super>55,<super>citation_needed<super>55}
+\definecolor{mPurple2}{rgb}{<super>citation_needed<super>63,<super>citation_needed<super>05,<super>citation_needed<super>05}
+\definecolor{backgroundColour}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>95,<super>citation_needed<super>92}
+\definecolor{backgroundColour2}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>92,<super>citation_needed<super>95}
 
 \lstdefinestyle{C}{
     backgroundcolor=\color{backgroundColour},   
@@ -80,7 +80,7 @@
     language=Python
 }
 
-\definecolor{eggplant}{rgb}{0.52,0.11,0.3}
+\definecolor{eggplant}{rgb}{<super>citation_needed<super>52,<super>citation_needed<super>11,<super>citation_needed<super>3}
 
 \usecolortheme[named=eggplant]{structure}
 
@@ -101,7 +101,7 @@ COMPSCI 1XC3 - Computer Science Practice and Experience:
 Development Basics
 \titlepage
 % Toggle for C chapters
-% Adapted from C: How to Program 8th ed., Deitel \& Deitel
+% Adapted from C: How to Program 8th e<super>citation_needed<super>, Deitel \& Deitel
 \end{frame}
 
 \begin{frame}
@@ -111,16 +111,16 @@ Development Basics
 \section[Syntax]{Working with Pointers} % include 
 \begin{frame}{Pointers in C}
 \center
-\includegraphics[scale=0.28]{DCPointers.png} \\
+\ \\
 "When a wise man points at the moon \\the imbecile examines the finger" \\
 -- A person a lot of quotes get attributed to -- 
 \end{frame}
 
 \begin{frame}{So what the heck's a pointer and why should I care?}
-Pointers are one of the most \textit{powerful} constructs in C.
+Pointers are one of the most \textit{powerful} constructs in <super>citation_needed<super>
 \begin{itemize}
-\item A \textbf{pointer} is a variable whose value is a \textbf{memory address}.
-\item Where most variables directly reference the value stored at some position in memory, pointers are \textbf{indirect references}.  
+\item A \textit{pointer} is a variable whose value is a \textbf{memory address<super>citation_needed<super>
+\item Where most variables directly reference the value stored at some position in memory, pointers are \textbf{indirect references<super>citation_needed<super>  
 \item In this set of slides we're going to talk about:
 \begin{itemize}
 \item Pointer Data Types
@@ -131,50 +131,50 @@ Pointers are one of the most \textit{powerful} constructs in C.
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Pointerization!}
-A pointer is not declared as a new datatype, but as a modifier to existing data types.
+A pointer is not declared as a new datatype, but as a modifier to existing data type<super>citation_needed<super>
 \begin{lstlisting}[style = C]
 int* ptr;
 \end{lstlisting}
-The \texttt{*} character indicates that \texttt{ptr} is an \textbf{integer pointer}.  
+The \texttt{*} character indicates that \texttt{ptr} is an \textbf{integer pointer<super>citation_needed<super>  
 \begin{itemize}
-\item This is to say, \texttt{ptr} points to a segment of memory the size of an \texttt{int}.  
+\item This is to say, \texttt{ptr} points to a segment of memory the size of an \texttt{int<super>citation_needed<super>  
 \end{itemize}
 The \texttt{*} character may be applied to either the data type or the identifier itself:
 \begin{lstlisting}[style = C]
 int *countPtr, count;
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{*} only pointerizes \texttt{countPtr} in this example.  
-\item If \texttt{*} were applied to \texttt{int}, \texttt{countPtr} would still be the only variable that was pointerized.
+\item \texttt{*} only pointerizes \texttt{countPtr} in this exampl<super>citation_needed<super>  
+\item If \texttt{*} were applied to \texttt{int}, \texttt{countPtr} would still be the only variable that was pointerize<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
-\begin{frame}{In Blue Block-o-vision...}
+\begin{frame}{In Blue Block-o-visio<super>citation_needed<super><super>citation_needed<super>}
 \center
-\includegraphics[scale=0.125]{tba.png}
+\
 \end{frame}
 
 \begin{frame}{Pointer Facts}
 \begin{itemize}
-\item You can create a pointer out of \emph{any} datatype, including custom ones.
-\item \texttt{*} means something different when you're not declaring a pointer... \emph{it's not part of the identifier!}
+\item You can create a pointer out of \emph{any} datatype, including custom one<super>citation_needed<super>
+\item \texttt{*} means something different when you're not declaring a pointe<super>citation_needed<super><super>citation_needed<super> \emph{it's not part of the identifier!}
 \item Since pointers are a more direct manipulation of memory, you can squeeze out some efficiencies by squeezing in some pointers! 
 \end{itemize}
 Stylistic Points
 \begin{itemize}
-\item To avoid the confusion on the previous slide, it's better to declare pointers and direct variables on separate lines.
-\item Putting some indication that a variable is a pointer in the identifier is a good way to be able to tell which variables are pointers later on.  
+\item To avoid the confusion on the previous slide, it's better to declare pointers and direct variables on separate line<super>citation_needed<super>
+\item Putting some indication that a variable is a pointer in the identifier is a good way to be able to tell which variables are pointers later o<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Initial Pointing}
-Like a lot of things in C, uninitialized pointers contain junk data.  
+Like a lot of things in C, uninitialized pointers contain junk dat<super>citation_needed<super>  
 \begin{itemize}
 \item A pointer will initially point to a random memory cell! 
-\item Pointers should be initialized to either 0, \texttt{NULL} or a value that makes sense.
+\item Pointers should be initialized to either 0, \texttt{NULL} or a value that makes sens<super>citation_needed<super>
 \begin{itemize}
-\item \texttt{NULL} is a \textbf{symbolic constant}, which is defined in a number of header files (such as \texttt{stdio.h} and \texttt{ stddef.h})
-\item \texttt{NULL} is the same thing as zero, but it's preferred for stylistic reasons.
+\item \texttt{NULL} is a \textit{symbolic constant}, which is defined in a number of header files (such as \texttt{stdi<super>citation_needed<super>h} and \texttt{ stdde<super>citation_needed<super>h})
+\item \texttt{NULL} is the same thing as zero, but it's preferred for stylistic reason<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 \begin{lstlisting}[style = C]
@@ -186,11 +186,11 @@ if (ptr != NULL) {
 \end{frame}
 
 \section[Operations]{Pointer Operations!}
-\begin{frame}[fragile=singleslide]{We've done the nouns, here come the verbs...}
+\begin{frame}[fragile=singleslide]{We've done the nouns, here come the verb<super>citation_needed<super><super>citation_needed<super>}
 Now we know how to store a memory address, but what good is it if we have no addresses to store?
 \begin{itemize}
-\item Memory Adresses are accessed using \texttt{\&}, the ``address of'' operator.
-\item Applied to any identifier, it returns the physical memory address of that identifier. 
+\item Memory Adresses are accessed using \texttt{\&}, the ``address of'' operato<super>citation_needed<super>
+\item Applied to any identifier, it returns the physical memory address of that identifie<super>citation_needed<super> 
 \item This includes pointers! 
 \end{itemize}
 \begin{lstlisting}[style = C]
@@ -203,14 +203,14 @@ yPtr = &y;
 
 \begin{frame}{Address of Operator in Box-O-Vision}
 \center
-\includegraphics[scale=0.12]{tbb.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Dereferencing for Fun and Profit}
-The inverse operation of \texttt{\&} is \textbf{pointer dereferencing}
+The inverse operation of \texttt{\&} is \textit{pointer dereferencing}
 \begin{itemize}
-\item This is a little confusing, but it's also \texttt{*}.
-\item Additionally, the formatter for pointers is \texttt{\%p}.
+\item This is a little confusing, but it's also \texttt{*<super>citation_needed<super>
+\item Additionally, the formatter for pointers is \texttt{\%p<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style = C]
 int y = 5;
@@ -228,15 +228,15 @@ The value pointed to is 5
 \end{frame}
 
 \begin{frame}{The Deadly and Dreaded SEGFAULT}
-Dereferencing a pointer that points to memory outside your program's allocated memory space causes a fatal runtime error called a \textbf{segmentation fault}.
+Dereferencing a pointer that points to memory outside your program's allocated memory space causes a fatal runtime error called a \textbf{segmentation fault<super>citation_needed<super>
 \center
-\includegraphics[scale=0.4]{compiler_complaint.png}
-This is most common with \texttt{NULL} pointers, but can also happen if you mess up your pointer arithmetic.
+\
+This is most common with \texttt{NULL} pointers, but can also happen if you mess up your pointer arithmeti<super>citation_needed<super>
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{\&} and \texttt{*} are Inverse Operations}
 \begin{lstlisting}[style=C]
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 int main(void) {
 	int a = 7;
 	int *aPtr = &a;
@@ -244,9 +244,9 @@ int main(void) {
 	printf("&a = %p\n", &a);
 	printf("aPtr = %p\n", aPtr);
 	printf("*aPtr = %d\n", *aPtr);
-	printf("Generating a memory address and dereferencing it\nleaves you where you started.\n");
+	printf("Generating a memory address and dereferencing it\nleaves you where you starte<super>citation_needed<super>\n");
 	printf("*&a = %d\n", *&a);
-	printf("The other way around causes an actual compiler error...\n");
+	printf("The other way around causes an actual compiler erro<super>citation_needed<super><super>citation_needed<super>\n");
 //	printf("&*a = %d", &*a);
 }
 \end{lstlisting}
@@ -259,52 +259,52 @@ a = 7
 aPtr = 0x7ffe08ed2edc
 *aPtr = 7
 Generating a memory address and then dereferencing it
-leaves you where you started.
+leaves you where you starte<super>citation_needed<super>
 *&a = 7
-The other way around causes an actual compiler error...
+The other way around causes an actual compiler erro<super>citation_needed<super><super>citation_needed<super>
 \end{verbatim}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Arrays of Pointers!}
-It can be easy to think of pointers entirely symbolically, and forget that they too have concrete values in memory.
+It can be easy to think of pointers entirely symbolically, and forget that they too have concrete values in memor<super>citation_needed<super>
 \begin{itemize}
-\item Pointers may be collected and organized in arrays, just like other data types.  
+\item Pointers may be collected and organized in arrays, just like other data type<super>citation_needed<super>  
 \end{itemize}
 \begin{lstlisting}[style=C]
 const char *suit[4] 
     = {"Hearts", "Diamonds", "Clubs", "Spades"};
 \end{lstlisting}
 \begin{itemize}
-\item Each element in the array is a pointer to a character array.
-\item The fact that our array contains pointers, instead of the character arrays themselves, means the character arrays' memory is managed separately from the array of pointers.
+\item Each element in the array is a pointer to a character arra<super>citation_needed<super>
+\item The fact that our array contains pointers, instead of the character arrays themselves, means the character arrays' memory is managed separately from the array of pointer<super>citation_needed<super>
 \item Whereas a 2D array must be rectangular, each character array pointed to by the array of pointers may have a unique length! 
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Arrays of Pointers in Block-O-Vision}
 \center
-\includegraphics[scale=0.1]{tbf.png}
+\
 \end{frame}
 
 \section[Passing]{The Wonderful World of Passing by Reference}
 \begin{frame}[fragile=singleslide]{Proud and Practical Pointer Passing}
 \begin{itemize}
-\item All arguments are passed by value by C... Unless the value you pass is a memory address!
+\item All arguments are passed by value by <super>citation_needed<super><super>citation_needed<super> Unless the value you pass is a memory address!
 \item Passing by reference allows functions to modify the referred data in the calling function, which can be useful!
 \begin{lstlisting}[style=C]
 int foo;
 int bar[];
 myFunc(&foo, bar);
 \end{lstlisting}
-\item We use \texttt{\&} to pass the address of \texttt{foo}, but \texttt{bar} is already a memory address.
-\item In C, \texttt{someArray} $\equiv$ \texttt{\&someArray[0]}.
-\item Inside the function definition, \texttt{foo} will need to be dereferenced, but \texttt{bar} will not.
+\item We use \texttt{\&} to pass the address of \texttt{foo}, but \texttt{bar} is already a memory addres<super>citation_needed<super>
+\item In C, \texttt{someArray} $\equiv$ \texttt{\&someArray[0]<super>citation_needed<super>
+\item Inside the function definition, \texttt{foo} will need to be dereferenced, but \texttt{bar} will no<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Example: Cube By Reference}
 \begin{lstlisting}[style=C]
-#include <stdio.h>
+#include <stdi<super>citation_needed<super>h>
 
 void cubeByReference(int *nPtr);
 
@@ -321,19 +321,19 @@ void cubeByReference(int *nPtr){
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}{In Block-O-Vision...}
+\begin{frame}{In Block-O-Visio<super>citation_needed<super><super>citation_needed<super>}
 \center
-\includegraphics[scale=0.35]{tbc.png}
+\
 \end{frame}
 
-\begin{frame}{In Block-O-Vision...}
+\begin{frame}{In Block-O-Visio<super>citation_needed<super><super>citation_needed<super>}
 \center
-\includegraphics[scale=0.35]{tbd.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Example: Cube By Reference}
 \begin{itemize}
-\item In order to accept a memory address as an argument, the fact must be specified in the argument's type information.
+\item In order to accept a memory address as an argument, the fact must be specified in the argument's type informatio<super>citation_needed<super>
 \item In this example, we replace the following operations: 
 \begin{itemize}
 \item Pass \texttt{num} by value to \texttt{cubeByReference}
@@ -345,23 +345,23 @@ void cubeByReference(int *nPtr){
 \item Pass the address of \texttt{num} to \texttt{cubeByReference}
 \item Compute the cube and store it in the memory address directly
 \end{itemize}
-\item Stylistically, pass by value is preferred unless the situation explicitly calls for pass by reference.
+\item Stylistically, pass by value is preferred unless the situation explicitly calls for pass by referenc<super>citation_needed<super>
 \begin{itemize}
-\item Passing by reference in this way violates the \textbf{principle of least privilege}.
+\item Passing by reference in this way violates the \textbf{principle of least privilege<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Arrays Are Pointers!}
-The syntax for passing an array as an argument to a function is the same as passing a variable by reference.  
+The syntax for passing an array as an argument to a function is the same as passing a variable by referenc<super>citation_needed<super>  
 \begin{itemize}
-\item This is because the compiler does not differentiate between pointers and one-dimensional arrays.  
+\item This is because the compiler does not differentiate between pointers and one-dimensional array<super>citation_needed<super>  
 \begin{itemize}
 \item Like so many things in C, that means it's your job! 
 \item It's up to you to write your functions so that they are using their arguments as intended!  
 \item Documentation becomes critical!
 \end{itemize}
-\item An array is actually a pointer to it's own first element.
+\item An array is actually a pointer to it's own first elemen<super>citation_needed<super>
 \item We can perform arithmetic to traverse arrays without the indexing operator! 
 \end{itemize}
 \end{frame}
@@ -369,7 +369,7 @@ The syntax for passing an array as an argument to a function is the same as pass
 \begin{frame}[fragile=singleslide]{\texttt{const} and the Art of Mental Stillness}
 Problem: Whenever we work with pointers, there's a possibility of pointer misuse resulting in a segfault! 
 \begin{itemize}
-\item We can prevent arguments from being modified by using the \texttt{const} qualifier.
+\item We can prevent arguments from being modified by using the \texttt{const} qualifie<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=C]
 void myFunc (const int *foo, float *bar);
@@ -391,8 +391,8 @@ error: assignment of read-only location
 \begin{frame}[fragile=singleslide]{argv \& argc}
 So far, we have not discussed how to send command line to arguments to a C program!
 \begin{lstlisting}[style=C]
-//arguments.c
-#include <stdio.h>
+//argument<super>citation_needed<super>c
+#include <stdi<super>citation_needed<super>h>
 
 int main(int argc, int *argv[]){
     printf("The number of passed arguments is %d\n", argc);
@@ -408,20 +408,20 @@ int main(int argc, int *argv[]){
 \section[Arith]{Pointer Expressions and Arithmetic}
 % \begin{frame}{Pointer Arithmetic}
 % \center
-% \includegraphics[scale=0.225]{c_os-files.png}
+% \
 % \\
 % \vspace{2em}
-% No clever quote this time, though I did learn the internet seems to think ``indirect'' means ``passive aggressive.''\\
+% No clever quote this time, though I did learn the internet seems to think ``indirect'' means ``passive aggressiv<super>citation_needed<super>''\\
 % -- The Prof -- \\
 % \end{frame}
 
 \begin{frame}[fragile=singleslide]{A Program Illustrating Array Addressing}
 \begin{lstlisting}[style=C]
-#include<stdio.h>
+#include<stdi<super>citation_needed<super>h>
 
 int main(void){
 	int foo[] = {0,1,2,3,4};
-	short int bar[] = {0.0,1.0,2.0,3.0,4.0};
+	short int bar[] = {<super>citation_needed<super>0,<super>citation_needed<super>0,<super>citation_needed<super>0,<super>citation_needed<super>0,<super>citation_needed<super>0};
 	printf("-----------------\n");
 	for (int i = 0; i < 5; i++) {
 		printf("&foo[%d] = %p\n", i, &foo[i]);
@@ -453,25 +453,25 @@ int main(void){
 
 \begin{frame}{In Block-O-Vision}
 \center
-\includegraphics[scale=0.1]{tbe.png}
+\
 \end{frame}
 
 \begin{frame}{Our Old Friend \texttt{++}}
 \begin{itemize}
-\item Notice in the previous slide how \texttt{foo}'s memory addresses are 4 bytes apart, and \texttt{bar}'s are 2 bytes apart.
-\item The array is continuous memory, and each element is allocated the size of the base data type of the array.
+\item Notice in the previous slide how \texttt{foo}'s memory addresses are 4 bytes apart, and \texttt{bar}'s are 2 bytes apar<super>citation_needed<super>
+\item The array is continuous memory, and each element is allocated the size of the base data type of the arra<super>citation_needed<super>
 \item If we wish to perform pointer arithmetic to traverse an array, the compiler needs to how big the steps are!
 \end{itemize}
-Operators can mean different things when applied to arguments of different types.
+Operators can mean different things when applied to arguments of different type<super>citation_needed<super>
 \begin{itemize}
-\item Float vs Int division, for example.
+\item Float vs Int division, for exampl<super>citation_needed<super>
 \item \texttt{++}, when applied to a pointer, will automatically take the size of the data type its operating on! 
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Traversing an Array with Pointer Arithmetic}
 \begin{lstlisting}[style=C]
-#include<stdio.h>
+#include<stdi<super>citation_needed<super>h>
 int main(void){
 	char foo[] = "Dated Reference";
 	char *fooPtr = foo;
@@ -493,39 +493,39 @@ The following are valid operations on pointers:
 \begin{itemize}
 \item \texttt{++}, \texttt{--}, \texttt{+}, \texttt{-}, \texttt{+=}, \texttt{-=}
 \end{itemize}
-In each of these cases, the number you are adding/subtracting to/from the pointer is \emph{implicitly multiplied by the byte-width of the data type}.
+In each of these cases, the number you are adding/subtracting to/from the pointer is \emph{implicitly multiplied by the byte-width of the data type<super>citation_needed<super>
 \begin{itemize}
-\item For example, if \texttt{ptr} points to an \texttt{int}, then \texttt{ptr += 4} would move the pointer by 16 bytes, since the bit-width of an \texttt{int} is 4 bytes.
+\item For example, if \texttt{ptr} points to an \texttt{int}, then \texttt{ptr += 4} would move the pointer by 16 bytes, since the bit-width of an \texttt{int} is 4 byte<super>citation_needed<super>
 \end{itemize}
-Pointers may also be subtracted from one another, but only meaningfully if they point to the same array.
+Pointers may also be subtracted from one another, but only meaningfully if they point to the same arra<super>citation_needed<super>
 \begin{itemize}
-\item \texttt{ptrA - ptrB} yields the number of \emph{array elements} difference between the two pointers, \emph{not} the number of bytes difference.
+\item \texttt{ptrA - ptrB} yields the number of \emph{array elements} difference between the two pointers, \emph{not} the number of bytes differenc<super>citation_needed<super>
 \end{itemize}
 \end{frame}
 
-\begin{frame}{A Word to the Wise...}
+\begin{frame}{A Word to the Wis<super>citation_needed<super><super>citation_needed<super>}
 \begin{itemize}
-\item In the previous example tracing a character array, we used our knowledge that strings are null terminated to set a stopping condition for our loop.
-\item Pointer arithmetic can easily place a pointer outside the bounds of its original data structure.
-\item There is no in-built protection against out-of-bounds pointers, so we can easily use them to assign to memory outside the array bounds.
+\item In the previous example tracing a character array, we used our knowledge that strings are null terminated to set a stopping condition for our loo<super>citation_needed<super>
+\item Pointer arithmetic can easily place a pointer outside the bounds of its original data structur<super>citation_needed<super>
+\item There is no in-built protection against out-of-bounds pointers, so we can easily use them to assign to memory outside the array bound<super>citation_needed<super>
 \item This could overwrite other variables, cause segmentation faults, and many other troubles! 
-\item Back in the day, this was a common exploit used to \emph{hack the government!}. 
+\item Back in the day, this was a common exploit used to \emph{hack the government!<super>citation_needed<super> 
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Wildcard Pointers}
-Normally, pointers require compatible types to be assigned to each other.
+Normally, pointers require compatible types to be assigned to each othe<super>citation_needed<super>
 \begin{itemize}
-\item The exception to this is a \textbf{void pointer}
+\item The exception to this is a \textit{void pointer}
 \end{itemize}
 \begin{lstlisting}[style=C]
 void *wildcard;
 \end{lstlisting}
 \begin{itemize}
-\item This is a generic pointer that can point to any data type.
+\item This is a generic pointer that can point to any data typ<super>citation_needed<super>
 \item A void pointer is compatible with all data types, and may be used in assignment operations freely
-\item The catch is a void pointer may not be dereferenced.  
-\item This is because the dereferencing operation uses the byte width of the pointer's data type to select the area of memory to return. 
+\item The catch is a void pointer may not be dereference<super>citation_needed<super>  
+\item This is because the dereferencing operation uses the byte width of the pointer's data type to select the area of memory to retur<super>citation_needed<super> 
 \end{itemize}
 \end{frame}
 
@@ -533,30 +533,30 @@ void *wildcard;
 Equality and relational operators work on pointers! 
 \begin{itemize}
 \item Relation operators are only meaningful if the pointers refer to the same data structure! 
-\item Equality comparison with \texttt{NULL} is common.
+\item Equality comparison with \texttt{NULL} is commo<super>citation_needed<super>
 \end{itemize}
 Array indexing is actually syntactic sugar for pointer arithmetic! 
 \begin{itemize}
 \item \texttt{foo[3]} $\equiv$ \texttt{*(foo + 3)}
 \item Therefore, it is also possible to index pointers in the same way as arrays! 
-\item One of the few differences between pointers and array identifiers is that a array identifiers may not be assigned to.  
+\item One of the few differences between pointers and array identifiers is that a array identifiers may not be assigned t<super>citation_needed<super>  
 \begin{itemize}
-\item We can think of them as \emph{read only pointers}.
+\item We can think of them as \emph{read only pointers<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \section[malloc]{Dynamic Memory Allocation}
 \begin{frame}{Dynamic Memory Allocation!}
-Up to now, our array sizes have been hard-coded (that is, set in the program code itself, not at runtime).
+Up to now, our array sizes have been hard-coded (that is, set in the program code itself, not at runtime<super>citation_needed<super>
 \begin{itemize}
-\item In this section, we will learn how to allocate memory dynamically, allowing us to expand or contract arrays as needed at runtime. 
+\item In this section, we will learn how to allocate memory dynamically, allowing us to expand or contract arrays as needed at runtim<super>citation_needed<super> 
 \begin{itemize}
-\item When we use static arrays, these memory operations are \emph{implicit}.
-\item The general proceedure is to declare a pointer, invoke a memory allocation operation, and store the resultant memory address in the declared pointer.
+\item When we use static arrays, these memory operations are \emph{implicit<super>citation_needed<super>
+\item The general proceedure is to declare a pointer, invoke a memory allocation operation, and store the resultant memory address in the declared pointe<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
-We will learn about the following functions, contained in \texttt{stdlib.h}
+We will learn about the following functions, contained in \texttt{stdli<super>citation_needed<super>h}
 \vspace{-1em}
 \begin{itemize}
 \item \texttt{malloc()}
@@ -568,42 +568,42 @@ We will learn about the following functions, contained in \texttt{stdlib.h}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{malloc()} - Memory Allocation}
-Dynamic allocation of a single, large block of memory, given a specified size.
+Dynamic allocation of a single, large block of memory, given a specified siz<super>citation_needed<super>
 \begin{lstlisting}[style=C]
 int *ptr = (int*) malloc(100*sizeof(int));
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{malloc()} accepts as an argument the number of bytes to allocate, expressed as an integer.
-\item It produces a void pointer, which may be type-cast to the type of the pointer you wish to store the address in.  
-\item \texttt{malloc()} may fail, if the requested memory is larger than the available memory.
+\item \texttt{malloc()} accepts as an argument the number of bytes to allocate, expressed as an intege<super>citation_needed<super>
+\item It produces a void pointer, which may be type-cast to the type of the pointer you wish to store the address i<super>citation_needed<super>  
+\item \texttt{malloc()} may fail, if the requested memory is larger than the available memor<super>citation_needed<super>
 \begin{itemize}
-\item In this case, a \texttt{NULL} pointer will be returned.
-\item You should always check a pointer returned from \texttt{malloc()} for null status before using it.
+\item In this case, a \texttt{NULL} pointer will be returne<super>citation_needed<super>
+\item You should always check a pointer returned from \texttt{malloc()} for null status before using i<super>citation_needed<super>
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}{\texttt{malloc()} Broken Down}
 \center
-\includegraphics[scale=0.4]{Malloc-function-in-c.png}
+\
 \end{frame}
 
 \begin{frame}{No \texttt{free()} Lunches}
-We now know how to allocate memory, so let's talk about how to deallocate memory.
+We now know how to allocate memory, so let's talk about how to deallocate memor<super>citation_needed<super>
 \begin{itemize}
-\item Memory manually allocated using \texttt{malloc()} \emph{must} be deallocated manually as well.
+\item Memory manually allocated using \texttt{malloc()} \emph{must} be deallocated manually as wel<super>citation_needed<super>
 \begin{itemize}
-	\item To \textbf{deallocate} is to take memory allocated to a program, and return control of that memory to the operating system.  
+	\item To \textit{deallocate} is to take memory allocated to a program, and return control of that memory to the operating syste<super>citation_needed<super>  
 	\item If no program deallocated the memory it used, you would have to restart your computer \emph{very frequently!}
 \end{itemize}
-\item The \texttt{free()} function accepts a pointer as an argument, and deallocates the memory pointed to.
-\item While it is not enforced by the compiler, freeing dynamic memory is the same as closing filestreams: Very good practice.  
+\item The \texttt{free()} function accepts a pointer as an argument, and deallocates the memory pointed t<super>citation_needed<super>
+\item While it is not enforced by the compiler, freeing dynamic memory is the same as closing filestreams: Very good practic<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
-\begin{frame}{No \texttt{free()} Lunches (cont.)}
+\begin{frame}{No \texttt{free()} Lunches (con<super>citation_needed<super>)}
 \center
-\includegraphics[scale=0.35]{Free-function-in-c.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{An example using \texttt{malloc()} and \texttt{free()}}
@@ -631,21 +631,21 @@ An alternative to \texttt{malloc()} is \texttt{calloc()}
 \item \texttt{calloc()} accepts two arguments:
 \begin{itemize}
 \item The first is the number of chunks of contiguous memory to allocate
-\item The second is the size of these chunks of memory in bytes.  
+\item The second is the size of these chunks of memory in byte<super>citation_needed<super>  
 \end{itemize}
-\item Additionally, \texttt{calloc()} wipes all allocated memory (i.e., writes 0 to each chunk).
-\item Aside from this, usage is exactly the same as \texttt{malloc()}.
+\item Additionally, \texttt{calloc()} wipes all allocated memory (<super>citation_needed<super><super>citation_needed<super>, writes 0 to each chunk<super>citation_needed<super>
+\item Aside from this, usage is exactly the same as \texttt{malloc()<super>citation_needed<super>
 \begin{lstlisting}[style = C]
 int n = 100;
 int *ptr = calloc(n, sizeof(float));
 \end{lstlisting}
-\item \texttt{calloc()} is slower than \texttt{malloc()}, however, as overwriting the allocated memory takes time.  
+\item \texttt{calloc()} is slower than \texttt{malloc()}, however, as overwriting the allocated memory takes tim<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
 \begin{frame}{\texttt{calloc()} : Memory Allocation For the Hygiene Obsessed}
 \center
-\includegraphics[scale=0.35]{calloc-function-in-c.png}
+\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{realloc()} : Change It! Because I Said So!}
@@ -657,8 +657,8 @@ int *ptr = calloc(40, sizeof(float));
 ptr = realloc(ptr, 100*sizeof(float));
 \end{lstlisting}
 \begin{itemize}
-\item The first argument is the pointer to be resized.
-\item The second argument is the new size, following \texttt{malloc()} rules.  
+\item The first argument is the pointer to be resize<super>citation_needed<super>
+\item The second argument is the new size, following \texttt{malloc()} rule<super>citation_needed<super>  
 \end{itemize}
 \item \texttt{realloc()} returns a pointer to the newly allocated memeory
 \item New chunks of memory will be filled with smelly garbage! 
@@ -667,19 +667,19 @@ ptr = realloc(ptr, 100*sizeof(float));
 
 \begin{frame}{texttt{realloc()} : Change It! Because I Said So!}
 \center
-\includegraphics[scale=0.35]{realloc-function-in-c.png}
+\
 \end{frame}
 
 % \begin{frame}{The Last Slide Comic}
 % \center
-% \includegraphics[scale=0.4]{pointers.png}
+% \
 % \end{frame}
 
 \section[Acknowledge]{Acknowledge}
 \begin{frame}{Acknowledge}
 \center
 \vspace{8em}
-The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by Dr. Nicholas Moore).  
+The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by D<super>citation_needed<super> Nicholas Moore<super>citation_needed<super>  
 \end{frame}
 
 \end{document}

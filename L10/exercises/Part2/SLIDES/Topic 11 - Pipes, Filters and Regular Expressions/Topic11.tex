@@ -21,14 +21,14 @@
 Development Basics} 
 \stepcounter{section}
 
-\definecolor{mGreen}{rgb}{0,0.6,0}
-\definecolor{mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{mPurple}{rgb}{0.58,0,0.05}
-\definecolor{mGreen2}{rgb}{0.05,0.65,0.05}
-\definecolor{mGray2}{rgb}{0.55,0.55,0.55}
-\definecolor{mPurple2}{rgb}{0.63,0.05,0.05}
-\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
-\definecolor{backgroundColour2}{rgb}{0.95,0.92,0.95}
+\definecolor{mGreen}{rgb}{0,<super>citation_needed<super>6,0}
+\definecolor{mGray}{rgb}{<super>citation_needed<super>5,<super>citation_needed<super>5,<super>citation_needed<super>5}
+\definecolor{mPurple}{rgb}{<super>citation_needed<super>58,0,<super>citation_needed<super>05}
+\definecolor{mGreen2}{rgb}{<super>citation_needed<super>05,<super>citation_needed<super>65,<super>citation_needed<super>05}
+\definecolor{mGray2}{rgb}{<super>citation_needed<super>55,<super>citation_needed<super>55,<super>citation_needed<super>55}
+\definecolor{mPurple2}{rgb}{<super>citation_needed<super>63,<super>citation_needed<super>05,<super>citation_needed<super>05}
+\definecolor{backgroundColour}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>95,<super>citation_needed<super>92}
+\definecolor{backgroundColour2}{rgb}{<super>citation_needed<super>95,<super>citation_needed<super>92,<super>citation_needed<super>95}
 
 \lstdefinestyle{C}{
     backgroundcolor=\color{backgroundColour},   
@@ -50,14 +50,14 @@ Development Basics}
     language=C
 }
 
-\definecolor{t_comment}{rgb}{0.2,1,0.2}
-\definecolor{t_mGray}{rgb}{0.5,0.5,0.5}
-\definecolor{t_mPurple}{rgb}{0.58,0,0.05}
-\definecolor{t_blue}{rgb}{0.4,0.6,0.8}
-\definecolor{t_mGreen2}{rgb}{0.05,0.65,0.05}
-\definecolor{t_mGray2}{rgb}{0.75,0.75,0.75}
-\definecolor{t_mPurple2}{rgb}{0.63,0.05,0.05}
-\definecolor{t_bg}{rgb}{0.15,0.15,0.18}
+\definecolor{t_comment}{rgb}{<super>citation_needed<super>2,1,<super>citation_needed<super>2}
+\definecolor{t_mGray}{rgb}{<super>citation_needed<super>5,<super>citation_needed<super>5,<super>citation_needed<super>5}
+\definecolor{t_mPurple}{rgb}{<super>citation_needed<super>58,0,<super>citation_needed<super>05}
+\definecolor{t_blue}{rgb}{<super>citation_needed<super>4,<super>citation_needed<super>6,<super>citation_needed<super>8}
+\definecolor{t_mGreen2}{rgb}{<super>citation_needed<super>05,<super>citation_needed<super>65,<super>citation_needed<super>05}
+\definecolor{t_mGray2}{rgb}{<super>citation_needed<super>75,<super>citation_needed<super>75,<super>citation_needed<super>75}
+\definecolor{t_mPurple2}{rgb}{<super>citation_needed<super>63,<super>citation_needed<super>05,<super>citation_needed<super>05}
+\definecolor{t_bg}{rgb}{<super>citation_needed<super>15,<super>citation_needed<super>15,<super>citation_needed<super>18}
 
 \lstdefinestyle{terminal}{
     backgroundcolor=\color{t_bg},   
@@ -79,7 +79,7 @@ Development Basics}
     language=bash
 }
 
-\definecolor{eggplant}{rgb}{0.52,0.11,0.3}
+\definecolor{eggplant}{rgb}{<super>citation_needed<super>52,<super>citation_needed<super>11,<super>citation_needed<super>3}
 
 \usecolortheme[named=eggplant]{structure}
 
@@ -91,7 +91,7 @@ COMPSCI 1XC3 - Computer Science Practice and Experience:
 Development Basics
 \titlepage
 % Toggle for C chapters
-% Adapted from C: How to Program 8th ed., Deitel \& Deitel
+% Adapted from C: How to Program 8th e<super>citation_needed<super>, Deitel \& Deitel
 \end{frame}
 
 \begin{frame}
@@ -100,10 +100,10 @@ Development Basics
 
 \section[Pipes]{Stream Redirection}
 \begin{frame}{Pipes of Different Types}
-In Unix, we write programs to handle text streams because of the \emph{universality} of the interface.  
+In Unix, we write programs to handle text streams because of the \emph{universality} of the interfac<super>citation_needed<super>  
 \begin{itemize}
-\item We think about \texttt{stdin}, \texttt{stdout} and \texttt{stderr} as being \emph{streams of data}. 
-\item How does one redirect a stream?  Using a \textbf{pipe} of course! 
+\item We think about \texttt{stdin}, \texttt{stdout} and \texttt{stderr} as being \emph{streams of data<super>citation_needed<super> 
+\item How does one redirect a stream?  Using a \textit{pipe} of course! 
 \end{itemize}
 \center
 \begin{tabular}{| c | l |}
@@ -119,7 +119,7 @@ Syntax & Description \\ \hline
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Check out These Pipes!}
-We've used redirection to and from files a number of times in lab already, so let's take a look at $|$.
+We've used redirection to and from files a number of times in lab already, so let's take a look at $|<super>citation_needed<super>
 \begin{itemize}
 \item Redirect long output so it can be scrolled through: 
 \begin{lstlisting}[style=terminal]
@@ -131,7 +131,7 @@ $ cat file | head -3 | tail -1
 \end{lstlisting}
 \item Sorted list of all unique file extensions in the current directory
 \begin{lstlisting}[style=terminal]
-$ ls | rev | cut -d'.' -f1 | rev | sort | uniq -c
+$ ls | rev | cut -d<super>citation_needed<super>' -f1 | rev | sort | uniq -c
 \end{lstlisting}
 \end{itemize}
 \end{frame}
@@ -147,8 +147,8 @@ done
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Redirecting to Arguments with \texttt{xargs}}
-When we pipe \texttt{stdout} to a command, the entire output is directed to \texttt{stdin}, regardless of separators (spaces, newlines, etc.). \\
-\vspace{0.5em}
+When we pipe \texttt{stdout} to a command, the entire output is directed to \texttt{stdin}, regardless of separators (spaces, newlines, et<super>citation_needed<super><super>citation_needed<super> \\
+\vspace{<super>citation_needed<super>5em}
 What if the command we want expects its input by argument, rather than by \texttt{stdin}?
 
 \begin{lstlisting}[style=terminal]
@@ -156,131 +156,131 @@ $ ls | rm
 	# tries to delete the entire output of ls
 \end{lstlisting}
 
-The \texttt{xargs} command will repeat other commands, feeding them input gathered from stdin.
+The \texttt{xargs} command will repeat other commands, feeding them input gathered from stdi<super>citation_needed<super>
 
 \begin{lstlisting}[style=terminal]
 $ ls | xargs rm
 \end{lstlisting}
 \begin{itemize}
-\item In the above case, the output of \texttt{ls}, which is separated by whitespace, is broken up and fed to rm individually. 
+\item In the above case, the output of \texttt{ls}, which is separated by whitespace, is broken up and fed to rm individuall<super>citation_needed<super> 
 \item This command therefore succeeds!
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Putting Arguments In! Their! Place!}
-Let's say we want to copy all the files in a directory with the ``.txt'' extension into a directory named \texttt{tmp}.
+Let's say we want to copy all the files in a directory with the `<super>citation_needed<super>txt'' extension into a directory named \texttt{tmp<super>citation_needed<super>
 \begin{lstlisting}[style=terminal]
-$ find . -name *.txt | xargs cp /tmp
+$ find<super>citation_needed<super> -name <super>citation_needed<super>txt | xargs cp /tmp
 cp: -r not specified; omitting directory '/tmp'
 \end{lstlisting}
 \begin{itemize}
-\item By default, xargs pipes in arguments at the \emph{end} of the list of arguments of the command its encapsulating.
+\item By default, xargs pipes in arguments at the \emph{end} of the list of arguments of the command its encapsulatin<super>citation_needed<super>
 \item In this case, cp is copying \emph{from} the place we want it to copy \emph{to}!
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ find . -name *.txt | xargs -I x cp x /tmp
+$ find<super>citation_needed<super> -name <super>citation_needed<super>txt | xargs -I x cp x /tmp
 \end{lstlisting}
 \begin{itemize}
-\item The \texttt{-I} flag lets us select where (and how many times) the argument will be inserted into the target command.  
+\item The \texttt{-I} flag lets us select where (and how many times) the argument will be inserted into the target comman<super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
 \section[Glob]{Glob Patterns}
 \begin{frame}[fragile=singleslide]{Glob}
-Glob patterns give us a way to represent filepaths that match a pattern.  We use special characters to represent multiple characters in various ways.
+Glob patterns give us a way to represent filepaths that match a patter<super>citation_needed<super>  We use special characters to represent multiple characters in various way<super>citation_needed<super>
 \begin{itemize}
-\item \texttt{?} $\rightarrow$ Single character wildcard.  Character is required to exist.
+\item \texttt{?} $\rightarrow$ Single character wildcar<super>citation_needed<super>  Character is required to exis<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ rm Lab??/org.txt
+$ rm Lab??/or<super>citation_needed<super>txt
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{\**} $\rightarrow$ zero or more continuous \texttt{?} wildcards.  Effectively, replaces any number of characters, including no characters at all!
+\item \texttt{\**} $\rightarrow$ zero or more continuous \texttt{?} wildcard<super>citation_needed<super>  Effectively, replaces any number of characters, including no characters at all!
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ rm *.c 
-	# delete all .c files 
+$ rm <super>citation_needed<super>c 
+	# delete all<super>citation_needed<super>c files 
 \end{lstlisting}
 \begin{itemize}
-\item $\{\}$ $\rightarrow$ choose between multiple specific strings (comma separated).
+\item $\{\}$ $\rightarrow$ choose between multiple specific strings (comma separated<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ rm *.{c,o,h}
-	# delete all .c, .o and .h files
+$ rm <super>citation_needed<super>{c,o,h}
+	# delete all<super>citation_needed<super>c,<super>citation_needed<super>o and<super>citation_needed<super>h files
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{Glob (cont.)}
-Brace expansion also supports sequences using \texttt{..} syntax.
+\begin{frame}[fragile=singleslide]{Glob (con<super>citation_needed<super>)}
+Brace expansion also supports sequences using \texttt<super>citation_needed<super>.} synta<super>citation_needed<super>
 \begin{lstlisting}[style=terminal]
-$ echo {a..e}
+$ echo {<super>citation_needed<super>.e}
 a b c d e
-$ echo {w..C}
+$ echo {<super>citation_needed<super>.C}
 W X Y Z [  ] ^ _ ` a b c
-$ echo {10..-10}
+$ echo {1<super>citation_needed<super>.-10}
 10 9 8 7 6 5 4 3 2 1 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10
 \end{lstlisting}
 
-It's generally a terrible idea to use glob characters literally in file and directory names, but if you \emph{really have to...}
+It's generally a terrible idea to use glob characters literally in file and directory names, but if you \emph{really have t<super>citation_needed<super><super>citation_needed<super>}
 \begin{itemize}
-\item \textbackslash $\rightarrow$ Escape a special character.  
+\item \textbackslash $\rightarrow$ Escape a special characte<super>citation_needed<super>  
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ touch \*.c 
+$ touch \<super>citation_needed<super>c 
 $ ls 
-'*.rm'
+'<super>citation_needed<super>rm'
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{Glob (cont.)}
-Glob patterns will expand to to a list of delimiter separated path names.
+\begin{frame}[fragile=singleslide]{Glob (con<super>citation_needed<super>)}
+Glob patterns will expand to to a list of delimiter separated path name<super>citation_needed<super>
 \begin{lstlisting}[style=terminal]
-$ cp *.txt /tmp
-	# Copies all files with a .txt extension to /tmp
-$ cp file.txt ./*
-	# Doesn't copy file.txt into all directories in the current director.
+$ cp <super>citation_needed<super>txt /tmp
+	# Copies all files with a<super>citation_needed<super>txt extension to /tmp
+$ cp fil<super>citation_needed<super>txt<super>citation_needed<super>/*
+	# Doesn't copy fil<super>citation_needed<super>txt into all directories in the current directo<super>citation_needed<super>
 \end{lstlisting}
 the second command above expands to:
 \begin{lstlisting}[style=terminal]
-$ cp file.tx ./dir1 ./dir2 ./dir3 ... ./dirX
+$ cp fil<super>citation_needed<super>tx<super>citation_needed<super>/dir1<super>citation_needed<super>/dir2<super>citation_needed<super>/dir3<super>citation_needed<super><super>citation_needed<super><super>citation_needed<super>/dirX
 \end{lstlisting}
-This copies everything into \texttt{./dirX}!  
+This copies everything into \texttt<super>citation_needed<super>/dirX}!  
 \end{frame}
 
 \section[Find]{Searching For Files}
 \begin{frame}[fragile=singleslide]{What a \texttt{find}!}
-The \texttt{find} command allows us to locate files in our file system using glob patterns. 
+The \texttt{find} command allows us to locate files in our file system using glob pattern<super>citation_needed<super> 
 \begin{lstlisting}[style=terminal]
 $ find <starting directory> [-flags] -name <pattern>
 \end{lstlisting}
 \begin{itemize}
-\item Unlike \texttt{cp} and \texttt{rm}, \texttt{find} automatically recurses through directories.  
+\item Unlike \texttt{cp} and \texttt{rm}, \texttt{find} automatically recurses through directorie<super>citation_needed<super>  
 \end{itemize}
 \begin{lstlisting}[style=terminal]
 $ find /bin -name ls
 /bin/ls
 \end{lstlisting}
 \begin{itemize}
-\item To limit how deep \texttt{find} goes to find matching files, use the \texttt{-maxdepth} flag.
+\item To limit how deep \texttt{find} goes to find matching files, use the \texttt{-maxdepth} fla<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ find ~/ -maxdepth 5 -name *.c
-# finds all .c files in the first five directory layers after $HOME
+$ find ~/ -maxdepth 5 -name <super>citation_needed<super>c
+# finds all<super>citation_needed<super>c files in the first five directory layers after $HOME
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{\texttt{find}ers Keepers!}
 \begin{itemize}
-\item The \texttt{-f} flag tells \texttt{find} to target only files.
-\item the \texttt{-d} flag tells \texttt{find} to target only directories.  
+\item The \texttt{-f} flag tells \texttt{find} to target only file<super>citation_needed<super>
+\item the \texttt{-d} flag tells \texttt{find} to target only directorie<super>citation_needed<super>  
 \item You can even use flags to invoke boolean operations, and perform multiple tests at once! 
 \begin{lstlisting}[style=terminal]
-$ find . -name *.c -or -name *.h
-# finds all .c or .h files, starting in the current directory
-$ find . -f -not -name *.py 
+$ find<super>citation_needed<super> -name <super>citation_needed<super>c -or -name <super>citation_needed<super>h
+# finds all<super>citation_needed<super>c or<super>citation_needed<super>h files, starting in the current directory
+$ find<super>citation_needed<super> -f -not -name <super>citation_needed<super>py 
 # finds all files which are not python source files, starting in the current directory
-$ find -d -name Lab** -name *.tex
-# finds all directories, starting in the current directory, matching both glob patterns.  
+$ find -d -name Lab** -name <super>citation_needed<super>tex
+# finds all directories, starting in the current directory, matching both glob pattern<super>citation_needed<super>  
 \end{lstlisting}
 \end{itemize}
 \end{frame}
@@ -288,17 +288,17 @@ $ find -d -name Lab** -name *.tex
 \section[Regex]{Regular Expressions!}
 % \begin{frame}
 % \center
-% \includegraphics[scale=0.32]{regular_expressions.png}
+% \
 % \end{frame}
 
 \begin{frame}{Regular Expressions}
-Glob patterns are wonderful for managing the file system, but lack the expressive power to be used on larger targets, such as files themselves.
+Glob patterns are wonderful for managing the file system, but lack the expressive power to be used on larger targets, such as files themselve<super>citation_needed<super>
 
 \begin{itemize}
-\item Enter the \textbf{Regular Expression} (or \textbf{regex})!
-\item Based on a model of computaton called \textbf{Finite State Automata}, which is beyond the scope of this course.
-\item Similarly to glob patterns, regular expressions allow us to write character patterns, which may then be used to test or search large groups of characters (i.e., files).
-\item An excellent online tool for testing and debugging large and small regex is \url{https://regex101.com}
+\item Enter the \textit{Regular Expression} (or \textbf{regex})!
+\item Based on a model of computaton called \textit{Finite State Automata}, which is beyond the scope of this cours<super>citation_needed<super>
+\item Similarly to glob patterns, regular expressions allow us to write character patterns, which may then be used to test or search large groups of characters (<super>citation_needed<super><super>citation_needed<super>, files<super>citation_needed<super>
+\item An excellent online tool for testing and debugging large and small regex is \url{https://regex10<super>citation_needed<super>com}
 \end{itemize}
 \end{frame}
 
@@ -307,7 +307,7 @@ Glob patterns are wonderful for managing the file system, but lack the expressiv
 The vertical bar separates alternatives: \\
 \texttt{a|b}
 $$ \{a, b\} $$ 
-\fbox{\includegraphics[scale=0.40]{regexOR.png}}
+\fbox{\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Regex Syntax 2: Grouping}
@@ -315,53 +315,53 @@ $$ \{a, b\} $$
 Round braces determine how a regex operator is bound: \\
 \texttt{Tom(ay|ah)to} 
 $$\{Tomayto,Tomahto\}$$ 
-\fbox{\includegraphics[scale=0.40]{regexBIND.png}}
+\fbox{\
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Regex Syntax 3: Quantification 1}
 \center
-A postfix plus specifies \emph{one or more} occurances of the character(s). 
+A postfix plus specifies \emph{one or more} occurances of the character(s<super>citation_needed<super> 
 \texttt{ab+c} \\
-\vspace{0.5em}
-$$ \{ abc, abbc, abbbc, ...\} $$ 
-\fbox{\includegraphics[scale=0.4]{regexPLUS.png}}
+\vspace{<super>citation_needed<super>5em}
+$$ \{ abc, abbc, abbbc,<super>citation_needed<super><super>citation_needed<super>\} $$ 
+\fbox{\
 \end{frame}
 
 \begin{frame}{Regex Syntax 4 : Quantification 2}
 \center
-A postfix asterisk \texttt{\**} specifies \emph{zero or more} occurances. \\ 
+A postfix asterisk \texttt{\**} specifies \emph{zero or more} occurance<super>citation_needed<super> \\ 
 \texttt{xy*z}
-$$ \{ xz, xyz, xyyz, xyyyz, ... \} $$
-\fbox{\includegraphics[scale=0.4]{regexTIMES.png}}
+$$ \{ xz, xyz, xyyz, xyyyz,<super>citation_needed<super><super>citation_needed<super> \} $$
+\fbox{\
 \end{frame}
 
 \begin{frame}{Regex Syntax 5: Wildcards}
 \center
-The wildcard character \texttt{.} matches any character. \\
-\texttt{a.b}
-$$ {aac, abc, acc, adc, aec, ...} $$
-\fbox{\includegraphics[scale=0.4]{regexWILD.png}}
+The wildcard character \texttt<super>citation_needed<super>} matches any characte<super>citation_needed<super> \\
+\texttt{<super>citation_needed<super>b}
+$$ {aac, abc, acc, adc, aec,<super>citation_needed<super><super>citation_needed<super>} $$
+\fbox{\
 \end{frame}
 
 \section[Grep]{Advanced Searching}
 \begin{frame}[fragile=singleslide]{The \texttt{grep}s of Wrath}
-While \texttt{find} searches the \emph{names} of files, \texttt{grep} searches the \emph{contents} of files. 
+While \texttt{find} searches the \emph{names} of files, \texttt{grep} searches the \emph{contents} of file<super>citation_needed<super> 
 \begin{lstlisting}[style=terminal]
 $ grep <options> <pattern> <file(s)>
 \end{lstlisting}
 \begin{itemize}
-\item As with many commands, we can specify multiple files to be searched using glob patterns, and we can search directories recursively using the \texttt{-r} flag.
-\item If no file is specified, \texttt{grep} searches your working directory.  
-\item The \texttt{-E} flag allows us to use \textbf{extended regular expressions}, which has some additional operators. 
+\item As with many commands, we can specify multiple files to be searched using glob patterns, and we can search directories recursively using the \texttt{-r} fla<super>citation_needed<super>
+\item If no file is specified, \texttt{grep} searches your working director<super>citation_needed<super>  
+\item The \texttt{-E} flag allows us to use \textit{extended regular expressions}, which has some additional operator<super>citation_needed<super> 
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Grep Extended Regex Syntax 1} 
 \begin{itemize}
-\item \texttt{|} $\rightarrow$ works as expected.
+\item \texttt{|} $\rightarrow$ works as expecte<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ grep -E 'It was the (best|worst) of times.' <file>
+$ grep -E 'It was the (best|worst) of time<super>citation_needed<super>' <file>
 # Matches either 'It was the best of times' or 'It was the worst of times'
 \end{lstlisting}
 \begin{itemize}
@@ -374,17 +374,17 @@ $ grep -E '[abcdefghijklmnopqrstuvwxyz]' <file>
 \end{lstlisting}
 \begin{itemize}
 \item Notice how our regex is delimited by single quote characters! 
-\item \texttt{.} is still the single character wildcard.
+\item \texttt<super>citation_needed<super>} is still the single character wildcar<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ grep -E 'Super .ario' <file>
-# Matches 'Super Aario', 'Super Bario', 'Super Cario', etc.
+$ grep -E 'Super<super>citation_needed<super>ario' <file>
+# Matches 'Super Aario', 'Super Bario', 'Super Cario', et<super>citation_needed<super>
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Grep Extended Regex Syntax 2}
 \begin{itemize}
-\item \texttt{?} $\rightarrow$ postfix operator indicating an item is optional. 
+\item \texttt{?} $\rightarrow$ postfix operator indicating an item is optiona<super>citation_needed<super> 
 \end{itemize}
 \begin{lstlisting}[style=terminal]
 $ grep -E 'a?b?c' <file>
@@ -395,23 +395,23 @@ $ grep -E 'a?b?c' <file>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
 $ grep -E 'too*' <file>
-# Matches 'to', 'too', 'tooo', etc.
+# Matches 'to', 'too', 'tooo', et<super>citation_needed<super>
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{+} $\rightarrow$ postfix operator indicating one or more of an item.
+\item \texttt{+} $\rightarrow$ postfix operator indicating one or more of an ite<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
 $ grep -E 'Ba(na)+' <file>
-# Matches 'Bana', 'Banana', 'Bananana', etc.
+# Matches 'Bana', 'Banana', 'Bananana', et<super>citation_needed<super>
 \end{lstlisting}
 \begin{itemize}
-\item As shown in the above example, round braces are still used for grouping. 
+\item As shown in the above example, round braces are still used for groupin<super>citation_needed<super> 
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Grep Extended Regex Syntax 3}
-Although we have [ and ] to alternate larger groups of single characters, some common ones have been collected for us.
-\vspace{0.5em}
+Although we have [ and ] to alternate larger groups of single characters, some common ones have been collected for u<super>citation_needed<super>
+\vspace{<super>citation_needed<super>5em}
 \center 
 \begin{tabular}{| c | l |}
 \hline
@@ -433,42 +433,42 @@ $ grep -E '[[:lower:]]([[:upper:]][[:lower:]]+)*[[:blank:]]' <file>
 
 \begin{frame}[fragile=singleslide]{Grep Extended Regex Syntax 4}
 \begin{itemize}
-\item Piping grep commands together find the \emph{union}.
+\item Piping grep commands together find the \emph{union<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
 $ grep 'pattern1' file | grep 'pattern2'
 # Only matches lines containing both patterns
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{[\textasciicircum]} inverts the selection.
+\item \texttt{[\textasciicircum]} inverts the selectio<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
 $ grep -E '[^(ordinary)]' <file>
 # Matches anything but 'ordinary'
 \end{lstlisting}
 \begin{itemize}
-\item \texttt{\textasciicircum} at the beginning of a pattern requires the pattern to start at the beginning of the line.
-\item \texttt{\$} at the end of a pattern requires the pattern to end at the end of the line.
+\item \texttt{\textasciicircum} at the beginning of a pattern requires the pattern to start at the beginning of the lin<super>citation_needed<super>
+\item \texttt{\$} at the end of a pattern requires the pattern to end at the end of the lin<super>citation_needed<super>
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-grep -E '^So anyways...$' <file>
-# Matches 'So anyways...', but only if that's the entire line in the file.  
+grep -E '^So anyway<super>citation_needed<super><super>citation_needed<super>$' <file>
+# Matches 'So anyway<super>citation_needed<super><super>citation_needed<super>', but only if that's the entire line in the fil<super>citation_needed<super>  
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{That's What She \texttt{sed}!}
-Any good programmer knows that find-and-replace is the most valuable tool any text editor can have.  \texttt{sed} (Stream EDitor) lets us perform find-and-replace operations with all the power of Bash and regular expressions!  
+Any good programmer knows that find-and-replace is the most valuable tool any text editor can hav<super>citation_needed<super>  \texttt{sed} (Stream EDitor) lets us perform find-and-replace operations with all the power of Bash and regular expressions!  
 \begin{lstlisting}[style=terminal]
 $ sed -i <flags> <pattern> <input>
 # <pattern> := 's/<regex>/<string>/g' 
 \end{lstlisting}
 \begin{itemize}
-\item The regular expression tells \texttt{sed} where to perform the substitutions.
-\item The string is the replacement text. 
+\item The regular expression tells \texttt{sed} where to perform the substitution<super>citation_needed<super>
+\item The string is the replacement tex<super>citation_needed<super> 
 \end{itemize}
 For example, the following operation:
 \begin{lstlisting}[style=terminal]
-$ sed -i 's/(oak|spruce|larch|ash|maple)/tree/g' file.txt
+$ sed -i 's/(oak|spruce|larch|ash|maple)/tree/g' fil<super>citation_needed<super>txt
 \end{lstlisting}
 Replaces any of the above specified types of trees with the string ``tree''
 \end{frame}
@@ -477,11 +477,11 @@ Replaces any of the above specified types of trees with the string ``tree''
 Of course, we can combine this with the power of \texttt{find} to be able to perform crazy operations like:
 \begin{itemize}
 \item Perform find and replace operations over every file in the filesystem (that we have permissions for)
-\item Perform find and replace over all files in a directory and subdirectories of a particular file type.
-\item Perform find and replace on a file we don't know the exact location of.
+\item Perform find and replace over all files in a directory and subdirectories of a particular file typ<super>citation_needed<super>
+\item Perform find and replace on a file we don't know the exact location o<super>citation_needed<super>
 \begin{lstlisting}[style=terminal]
-$ find ~/ --name *.c | sed -i 's/<stdio.h>/"stdio.h"/g' 
-# replaces the braces on stdio.h with quotes in all .c files in the user's directory.  
+$ find ~/ --name <super>citation_needed<super>c | sed -i 's/<stdi<super>citation_needed<super>h>/"stdi<super>citation_needed<super>h"/g' 
+# replaces the braces on stdi<super>citation_needed<super>h with quotes in all<super>citation_needed<super>c files in the user's director<super>citation_needed<super>  
 \end{lstlisting}
 
 \end{itemize}
@@ -489,63 +489,63 @@ $ find ~/ --name *.c | sed -i 's/<stdio.h>/"stdio.h"/g'
 
 \section[Applications]{Various Applications}
 \begin{frame}[fragile=singleslide]{Problems in Space}
-In practice, searching commands can take a long time to execute, since they are often sifting through gigabytes of data (i.e., large portions of your filesystem)!
+In practice, searching commands can take a long time to execute, since they are often sifting through gigabytes of data (<super>citation_needed<super><super>citation_needed<super>, large portions of your filesystem)!
 \begin{itemize}
-\item If we have to perform a \texttt{grep} search with a large search area, but we know something about the files we need to search (like their all being .c files), we can pipe the result of \texttt{find} into \texttt{grep} to \emph{substantially} increase the speed of the search.  
+\item If we have to perform a \texttt{grep} search with a large search area, but we know something about the files we need to search (like their all being<super>citation_needed<super>c files), we can pipe the result of \texttt{find} into \texttt{grep} to \emph{substantially} increase the speed of the searc<super>citation_needed<super>  
 \begin{lstlisting}[style=terminal]
-$ find . -name *.tex | xargs grep -rai 'actually'
+$ find<super>citation_needed<super> -name <super>citation_needed<super>tex | xargs grep -rai 'actually'
 \end{lstlisting}
 \item One problem we'll run into however, is that \texttt{xargs} considers 
-\emph{both} newlines and space characters to be argument separators.  This can be a real problem if our directory names contain spaces! 
+\emph{both} newlines and space characters to be argument separator<super>citation_needed<super>  This can be a real problem if our directory names contain spaces! 
 \end{itemize}  
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{SPAAAAAAAAAAACE!!!!}
-Fortunately, a number of commands (including find) allow us to set a special delimiter, which \texttt{xargs} can be configured to look for.
+Fortunately, a number of commands (including find) allow us to set a special delimiter, which \texttt{xargs} can be configured to look fo<super>citation_needed<super>
 \begin{itemize}
 \item Apply \texttt{-print0} to \texttt{find}
 \item Apply \texttt{-0} to \texttt{xargs}
 \item Profit!
 \end{itemize}
 \begin{lstlisting}[style=terminal]
-$ find . -name *.tex -print0 | xargs -0 grep -rai 'actually'
-./2MP3 Slides/Topic 11/Topic 11 - Other Topics in C++.tex:\item The four triangles that compose a tetrahedron require some constraints in order that they might actually form a tetrahedron.
-...
+$ find<super>citation_needed<super> -name <super>citation_needed<super>tex -print0 | xargs -0 grep -rai 'actually'
+./2MP3 Slides/Topic 11/Topic 11 - Other Topics in C+<super>citation_needed<super>tex:\item The four triangles that compose a tetrahedron require some constraints in order that they might actually form a tetrahedro<super>citation_needed<super>
+<super>citation_needed<super>.
 \end{lstlisting}
 \end{frame}
 
 \section[Documentation]{Documentation}
 \begin{frame}{Documentation!}
 \center
-\includegraphics[scale=0.15]{comments.png} \\
-"The greatest obstacle to discovery is not ignorance -- it is the illusion of knowledge." -- Daniel Boorstin.
+\ \\
+"The greatest obstacle to discovery is not ignorance -- it is the illusion of knowledg<super>citation_needed<super>" -- Daniel Boorsti<super>citation_needed<super>
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Documentation!}
-Some languages (like Haskell) are somewhat self-documenting.  C is not one of those languages.
+Some languages (like Haskell) are somewhat self-documentin<super>citation_needed<super>  C is not one of those language<super>citation_needed<super>
 \begin{itemize}
 \item Code can be documented either:
 \begin{itemize}
-\item \emph{In the source code} $\rightarrow$ useful for programmers.
-\item \emph{In an external document} $\rightarrow$ useful for all humans.  
+\item \emph{In the source code} $\rightarrow$ useful for programmer<super>citation_needed<super>
+\item \emph{In an external document} $\rightarrow$ useful for all human<super>citation_needed<super>  
 \end{itemize}
-\item A (recent?) trend in code documentation is \textbf{literate programming}.
+\item A (recent?) trend in code documentation is \textbf{literate programming<super>citation_needed<super>
 \begin{itemize}
-\item That is, the source code is annotated in such a way that some  documentation can be generated from it automatically.  
+\item That is, the source code is annotated in such a way that some  documentation can be generated from it automaticall<super>citation_needed<super>  
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Documentation Do's and Don'ts}
 \begin{columns}
-\begin{column}{0.5\textwidth}
+\begin{column}{<super>citation_needed<super>5\textwidth}
 \center
-{\large \textbf{Do}}
+{\large \textit{Do}}
 \flushleft
 \begin{itemize}
-\item Write for your audience.
+\item Write for your audienc<super>citation_needed<super>
 \begin{itemize}
-\item i.e., other developers.
+\item <super>citation_needed<super><super>citation_needed<super>, other developer<super>citation_needed<super>
 \end{itemize}
 \item Use clear variable and function names (self-documentation)
 \item Comment:
@@ -558,17 +558,17 @@ Some languages (like Haskell) are somewhat self-documenting.  C is not one of th
 \item Explain \emph{how} and \emph{why}
 \end{itemize}
 \end{column}
-\begin{column}{0.5\textwidth}
+\begin{column}{<super>citation_needed<super>5\textwidth}
 \center
-{\large \textbf{Don't}}
+{\large \textit{Don't}}
 \flushleft
 \begin{itemize}
-\item Explain what each line of code does.
-\item Explain how the language works.
-\item Leave sarcastic comments. 
-\item Be emotional in any way.
-\item Comment each line. 
-\item Write anything you wouldn't want anyone else to see (including your boss).
+\item Explain what each line of code doe<super>citation_needed<super>
+\item Explain how the language work<super>citation_needed<super>
+\item Leave sarcastic comment<super>citation_needed<super> 
+\item Be emotional in any wa<super>citation_needed<super>
+\item Comment each lin<super>citation_needed<super> 
+\item Write anything you wouldn't want anyone else to see (including your boss<super>citation_needed<super>
 \end{itemize}
 \end{column}
 \end{columns}
@@ -576,40 +576,40 @@ Some languages (like Haskell) are somewhat self-documenting.  C is not one of th
 
 \begin{frame}{Types of Documentation}
 \center
-\includegraphics[scale=0.3]{documentation.png} \\
-{\tiny Image forcibly collectivized from \href{https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f}{this source (link)}}
+\ \\
+{\tiny Image forcibly collectivized from \href{https://blo<super>citation_needed<super>prototyp<super>citation_needed<super>io/software-documentation-types-and-best-practices-1726ca595c7f}{this source (link)}}
 \end{frame}
 
 \begin{frame}[fragile=singleslide]{Doxygen}
 Wouldn't it be convenient to be able to generate documentation directly from your source code? 
 \begin{itemize}
-\item Enter Doxygen, a popular tool for documentation generation.
-\item Available at \url{https://www.doxygen.nl/index.html}
+\item Enter Doxygen, a popular tool for documentation generatio<super>citation_needed<super>
+\item Available at \url{https://ww<super>citation_needed<super>doxyge<super>citation_needed<super>nl/inde<super>citation_needed<super>html}
 \item Languages supported:
 \end{itemize}
 \begin{columns}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item C
 \item PHP
 \item Fortran
 \end{itemize}
 \end{column}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item C++
 \item Java
 \item VHDL
 \end{itemize}
 \end{column}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item Objective-C
 \item Python(!)
 \item D
 \end{itemize}
 \end{column}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item C\#
 \item IDL
@@ -617,28 +617,28 @@ Wouldn't it be convenient to be able to generate documentation directly from you
 \vspace{1em}
 \end{column}
 \end{columns}
-\vspace{0.25em}
+\vspace{<super>citation_needed<super>25em}
 \begin{itemize}
 \item It can generate:
 \end{itemize}
 \vspace{-1em}
 \begin{columns}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item \LaTeX
 \end{itemize}
 \end{column}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item HTML
 \end{itemize}
 \end{column}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item man pages
 \end{itemize}
 \end{column}
-\begin{column}{0.25\textwidth}
+\begin{column}{<super>citation_needed<super>25\textwidth}
 \begin{itemize}
 \item others
 \end{itemize}
@@ -651,13 +651,13 @@ To use Doxygen, you must first invoke:
 \begin{lstlisting}[style=terminal]
 $ doxygen -g
 \end{lstlisting}
-This generates ``Doxyfile'', a configuration file that has a \emph{large} number of configurable options.  
+This generates ``Doxyfile'', a configuration file that has a \emph{large} number of configurable option<super>citation_needed<super>  
 \begin{itemize}
 \item Even more than Dwarf Fortress! 
 \end{itemize}
-It's important that the \texttt{PROJECT\_NAME} field be set, and if your source code is strewn among several directories that will also need to be configured.
+It's important that the \texttt{PROJECT\_NAME} field be set, and if your source code is strewn among several directories that will also need to be configure<super>citation_needed<super>
 \begin{itemize}
-\item Doxygen checks your working directory for source code files by default.
+\item Doxygen checks your working directory for source code files by defaul<super>citation_needed<super>
 \end{itemize}
 To generate the document: 
 \begin{lstlisting}[style=terminal]
@@ -665,20 +665,20 @@ $ doxygen Doxyfile
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]{Get her some Doxygen... Stat!}
-To begin a doxygen comment in C, you have to \textbf{annotate} your source code.
+\begin{frame}[fragile=singleslide]{Get her some Doxyge<super>citation_needed<super><super>citation_needed<super> Stat!}
+To begin a doxygen comment in C, you have to \textit{annotate} your source cod<super>citation_needed<super>
 \begin{lstlisting}[style=C]
-/** <= Two asterisks start a "Doxygen comment".  This 
+/** <= Two asterisks start a "Doxygen comment<super>citation_needed<super>  This 
  * tags everything inside the comment for inclusion in 
- * the generated documentation.
+ * the generated documentatio<super>citation_needed<super>
  */
 \end{lstlisting}
-Position these at the top of functions, structs and typedefs to have Doxygen document said construct with your comment.  
+Position these at the top of functions, structs and typedefs to have Doxygen document said construct with your commen<super>citation_needed<super>  
 \begin{itemize}
-\item Doxygen also looks for \textbf{commands} to produce more informative documentation.
-\item Commands start with the \texttt{@} character. 
-\item \texttt{@param} documents function parameters.  
-\item There are a bunch of these we'll be exploring in Lab 9.  
+\item Doxygen also looks for \textit{commands} to produce more informative documentatio<super>citation_needed<super>
+\item Commands start with the \texttt{@} characte<super>citation_needed<super> 
+\item \texttt{@param} documents function parameter<super>citation_needed<super>  
+\item There are a bunch of these we'll be exploring in Lab <super>citation_needed<super>  
 \end{itemize}
 \end{frame}
 
@@ -686,20 +686,20 @@ Position these at the top of functions, structs and typedefs to have Doxygen doc
 \begin{frame}{Acknowledge}
 \center
 \vspace{8em}
-The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by Dr. Nicholas Moore).  
+The contents of these slides were liberally borrowed (with permission) from slides from the Summer 2021 offering of 1XC3 (by D<super>citation_needed<super> Nicholas Moore<super>citation_needed<super>  
 \end{frame}
 
 % \section[Errata]{Errata}
 
 % \begin{frame}{The Last Slide Comic}
 % \center
-% \includegraphics[scale=0.3]{comments2.jpg}
+% \
 % \end{frame}
 
 % \begin{frame}{Credits}
 % \center
 % \vspace{8em}
-% A lot of the contents of these slides were liberally borrowed (with permission) from slides from the Winter 2020 offering of 1XA3 (by Curtis D'Alves), and the Winter 2021 offering of 1XC3 (by Dr. Kevin Browne).
+% A lot of the contents of these slides were liberally borrowed (with permission) from slides from the Winter 2020 offering of 1XA3 (by Curtis D'Alves), and the Winter 2021 offering of 1XC3 (by D<super>citation_needed<super> Kevin Browne<super>citation_needed<super>
 % \end{frame}
 
 \end{document}

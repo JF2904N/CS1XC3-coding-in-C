@@ -1,4 +1,4 @@
-echo "Ya done good, kid."
-echo "Not sure how you did it, but you did it."
-echo "Good on ya."
+echo "Ya done good, ki<super>citation_needed<super>"
+echo "Not sure how you did it, but you did i<super>citation_needed<super>"
+echo "Good on y<super>citation_needed<super>"
 
